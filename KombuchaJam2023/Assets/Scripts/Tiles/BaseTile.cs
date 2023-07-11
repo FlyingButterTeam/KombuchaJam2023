@@ -2,26 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SquareTile
+public abstract class BaseTile : MonoBehaviour
 {
-    Vector2 _position;
-    public Vector2 Position 
-    {   
-        get { return _position; } 
-        protected set { _position = value; } 
-    }
+    public Vector2 position;
 
-    public string Name { get { return new string(Position.x + "x" + Position.y); } }
+    public string Name { get { return new string(position.x + "x" + position.y); } }
 
 
-    public Vector2 ObtainRelativePosition(GridDirections.Directions direction)
+    protected Vector2 ObtainRelativePosition(GridDirections.Directions direction)
     {
         if (IsDirectionValid(direction))
-            return GridDirections.RelativePosition(Position, direction);
+            return GridDirections.RelativePosition(position, direction);
 
         // If the direction is not valid.
         Debug.LogError("It is impossible to calculate the " + direction + " for a tile of these characteristics.");
-        return Position;
+        return position;
     }
 
 
@@ -41,11 +36,5 @@ public class SquareTile
 
             default: return false;
         }
-    }
-
-
-    public SquareTile(Vector2 position)
-    {
-        Position = position;
     }
 }
