@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
-using static UnityEngine.Rendering.DebugUI;
 
+[ExecuteInEditMode]
 public class MapTile : BaseTile
 {
     [Header("Tile GameObjects")]
@@ -32,10 +31,11 @@ public class MapTile : BaseTile
     }
 
     #endregion
+    
+    public enum TileVisibility { visible, fogged, hidden, undertermined }   
+                                 // Undetermined is exclusively used as initial state of the tiles.
 
-    public enum TileVisibility { visible, fogged, hidden }
-
-    [SerializeField] TileVisibility visibility = TileVisibility.hidden;
+    TileVisibility visibility = TileVisibility.undertermined;
 
     public TileVisibility Visibility 
     { 
@@ -70,6 +70,8 @@ public class MapTile : BaseTile
         switch (newVisibility)
         {
             case TileVisibility.hidden:
+                foggedTile.SetActive(false);
+                regularTile.SetActive(false);
                 break;
 
             case TileVisibility.fogged:
@@ -99,4 +101,32 @@ public class MapTile : BaseTile
 
         return MyGrid.ObtainMapTileAtPosition(newTilePosition);
     }
+
+
+#if UNITY_EDITOR
+
+    Vector2 oldPosition = Vector2.zero;
+
+    private void OnDrawGizmosSelected()
+    {
+        if (oldPosition != position)
+        {
+            SetTileName(position);
+            SetTilePosition(position);
+
+            oldPosition = position;
+        }
+    }
+
+    void SetTileName(Vector2 newPosition)
+    {
+        gameObject.name = new string("Tile_" + newPosition.x + "x" + newPosition.y);
+    }
+
+    void SetTilePosition(Vector2 newPosition)
+    {
+        transform.localPosition = new Vector3(newPosition.x, -newPosition.y, 0);
+    }
+
+#endif
 }
