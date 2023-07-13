@@ -5,9 +5,10 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class MapTile : BaseTile
 {
-    [Header("Tile GameObjects")]
+    [Header("References")]
     [SerializeField] GameObject foggedTile;
     [SerializeField] GameObject regularTile;
+    [SerializeField] GameObject tileBorder;
     
     
     #region Self-Initiated Properties
@@ -35,11 +36,11 @@ public class MapTile : BaseTile
     public enum TileVisibility { visible, fogged, hidden, undertermined }   
                                  // Undetermined is exclusively used as initial state of the tiles.
 
-    TileVisibility visibility = TileVisibility.undertermined;
+    TileVisibility _visibility = TileVisibility.undertermined;
 
     public TileVisibility Visibility 
     { 
-        get { return Visibility; } 
+        get { return _visibility; } 
     
         set { ChangeVisibility(value); }
     }
@@ -47,7 +48,7 @@ public class MapTile : BaseTile
 
     void ChangeVisibility(TileVisibility newVisibility)
     {
-        if (visibility == newVisibility)
+        if (_visibility == newVisibility)
             return;
 
         // Revealing adjacent tiles as fogged if we just revealed this one.
@@ -59,7 +60,7 @@ public class MapTile : BaseTile
             {
                 foreach (var tile in adjacentTiles)
                 {
-                    if(tile.visibility == TileVisibility.hidden)
+                    if(tile._visibility == TileVisibility.hidden)
                         tile.Visibility = TileVisibility.fogged;
                 }
             }
@@ -72,21 +73,23 @@ public class MapTile : BaseTile
             case TileVisibility.hidden:
                 foggedTile.SetActive(false);
                 regularTile.SetActive(false);
+                tileBorder.SetActive(false);
                 break;
 
             case TileVisibility.fogged:
                 foggedTile.SetActive(true);
                 regularTile.SetActive(false);
+                tileBorder.SetActive(true);
                 break;
 
             case TileVisibility.visible:
                 foggedTile.SetActive(false);
                 regularTile.SetActive(true);
+                tileBorder.SetActive(true);
                 break;
         }
         
-
-        visibility = newVisibility;
+        _visibility = newVisibility;
     }
 
     MapTile ObtainTileInDirection(GridDirections.Directions direction)

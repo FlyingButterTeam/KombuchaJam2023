@@ -24,7 +24,7 @@ public partial class @PlayerActionsAsset : IInputActionCollection2, IDisposable
     ""name"": ""PlayerActionsAsset"",
     ""maps"": [
         {
-            ""name"": ""RegularPointAndClick"",
+            ""name"": ""PointAndClick"",
             ""id"": ""ef30b039-d59b-46e5-870d-e2dd4e9057c2"",
             ""actions"": [
                 {
@@ -735,7 +735,7 @@ public partial class @PlayerActionsAsset : IInputActionCollection2, IDisposable
                     ""path"": ""<Keyboard>/escape"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": """",
+                    ""groups"": ""Keyboard&Mouse"",
                     ""action"": ""SkipCinematic"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -806,11 +806,11 @@ public partial class @PlayerActionsAsset : IInputActionCollection2, IDisposable
         }
     ]
 }");
-        // RegularPointAndClick
-        m_RegularPointAndClick = asset.FindActionMap("RegularPointAndClick", throwIfNotFound: true);
-        m_RegularPointAndClick_Move = m_RegularPointAndClick.FindAction("Move", throwIfNotFound: true);
-        m_RegularPointAndClick_Look = m_RegularPointAndClick.FindAction("Look", throwIfNotFound: true);
-        m_RegularPointAndClick_Fire = m_RegularPointAndClick.FindAction("Fire", throwIfNotFound: true);
+        // PointAndClick
+        m_PointAndClick = asset.FindActionMap("PointAndClick", throwIfNotFound: true);
+        m_PointAndClick_Move = m_PointAndClick.FindAction("Move", throwIfNotFound: true);
+        m_PointAndClick_Look = m_PointAndClick.FindAction("Look", throwIfNotFound: true);
+        m_PointAndClick_Fire = m_PointAndClick.FindAction("Fire", throwIfNotFound: true);
         // MapControls
         m_MapControls = asset.FindActionMap("MapControls", throwIfNotFound: true);
         m_MapControls_Navigate = m_MapControls.FindAction("Navigate", throwIfNotFound: true);
@@ -878,39 +878,39 @@ public partial class @PlayerActionsAsset : IInputActionCollection2, IDisposable
         return asset.FindBinding(bindingMask, out action);
     }
 
-    // RegularPointAndClick
-    private readonly InputActionMap m_RegularPointAndClick;
-    private IRegularPointAndClickActions m_RegularPointAndClickActionsCallbackInterface;
-    private readonly InputAction m_RegularPointAndClick_Move;
-    private readonly InputAction m_RegularPointAndClick_Look;
-    private readonly InputAction m_RegularPointAndClick_Fire;
-    public struct RegularPointAndClickActions
+    // PointAndClick
+    private readonly InputActionMap m_PointAndClick;
+    private IPointAndClickActions m_PointAndClickActionsCallbackInterface;
+    private readonly InputAction m_PointAndClick_Move;
+    private readonly InputAction m_PointAndClick_Look;
+    private readonly InputAction m_PointAndClick_Fire;
+    public struct PointAndClickActions
     {
         private @PlayerActionsAsset m_Wrapper;
-        public RegularPointAndClickActions(@PlayerActionsAsset wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Move => m_Wrapper.m_RegularPointAndClick_Move;
-        public InputAction @Look => m_Wrapper.m_RegularPointAndClick_Look;
-        public InputAction @Fire => m_Wrapper.m_RegularPointAndClick_Fire;
-        public InputActionMap Get() { return m_Wrapper.m_RegularPointAndClick; }
+        public PointAndClickActions(@PlayerActionsAsset wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Move => m_Wrapper.m_PointAndClick_Move;
+        public InputAction @Look => m_Wrapper.m_PointAndClick_Look;
+        public InputAction @Fire => m_Wrapper.m_PointAndClick_Fire;
+        public InputActionMap Get() { return m_Wrapper.m_PointAndClick; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(RegularPointAndClickActions set) { return set.Get(); }
-        public void SetCallbacks(IRegularPointAndClickActions instance)
+        public static implicit operator InputActionMap(PointAndClickActions set) { return set.Get(); }
+        public void SetCallbacks(IPointAndClickActions instance)
         {
-            if (m_Wrapper.m_RegularPointAndClickActionsCallbackInterface != null)
+            if (m_Wrapper.m_PointAndClickActionsCallbackInterface != null)
             {
-                @Move.started -= m_Wrapper.m_RegularPointAndClickActionsCallbackInterface.OnMove;
-                @Move.performed -= m_Wrapper.m_RegularPointAndClickActionsCallbackInterface.OnMove;
-                @Move.canceled -= m_Wrapper.m_RegularPointAndClickActionsCallbackInterface.OnMove;
-                @Look.started -= m_Wrapper.m_RegularPointAndClickActionsCallbackInterface.OnLook;
-                @Look.performed -= m_Wrapper.m_RegularPointAndClickActionsCallbackInterface.OnLook;
-                @Look.canceled -= m_Wrapper.m_RegularPointAndClickActionsCallbackInterface.OnLook;
-                @Fire.started -= m_Wrapper.m_RegularPointAndClickActionsCallbackInterface.OnFire;
-                @Fire.performed -= m_Wrapper.m_RegularPointAndClickActionsCallbackInterface.OnFire;
-                @Fire.canceled -= m_Wrapper.m_RegularPointAndClickActionsCallbackInterface.OnFire;
+                @Move.started -= m_Wrapper.m_PointAndClickActionsCallbackInterface.OnMove;
+                @Move.performed -= m_Wrapper.m_PointAndClickActionsCallbackInterface.OnMove;
+                @Move.canceled -= m_Wrapper.m_PointAndClickActionsCallbackInterface.OnMove;
+                @Look.started -= m_Wrapper.m_PointAndClickActionsCallbackInterface.OnLook;
+                @Look.performed -= m_Wrapper.m_PointAndClickActionsCallbackInterface.OnLook;
+                @Look.canceled -= m_Wrapper.m_PointAndClickActionsCallbackInterface.OnLook;
+                @Fire.started -= m_Wrapper.m_PointAndClickActionsCallbackInterface.OnFire;
+                @Fire.performed -= m_Wrapper.m_PointAndClickActionsCallbackInterface.OnFire;
+                @Fire.canceled -= m_Wrapper.m_PointAndClickActionsCallbackInterface.OnFire;
             }
-            m_Wrapper.m_RegularPointAndClickActionsCallbackInterface = instance;
+            m_Wrapper.m_PointAndClickActionsCallbackInterface = instance;
             if (instance != null)
             {
                 @Move.started += instance.OnMove;
@@ -925,7 +925,7 @@ public partial class @PlayerActionsAsset : IInputActionCollection2, IDisposable
             }
         }
     }
-    public RegularPointAndClickActions @RegularPointAndClick => new RegularPointAndClickActions(this);
+    public PointAndClickActions @PointAndClick => new PointAndClickActions(this);
 
     // MapControls
     private readonly InputActionMap m_MapControls;
@@ -1077,7 +1077,7 @@ public partial class @PlayerActionsAsset : IInputActionCollection2, IDisposable
             return asset.controlSchemes[m_XRSchemeIndex];
         }
     }
-    public interface IRegularPointAndClickActions
+    public interface IPointAndClickActions
     {
         void OnMove(InputAction.CallbackContext context);
         void OnLook(InputAction.CallbackContext context);

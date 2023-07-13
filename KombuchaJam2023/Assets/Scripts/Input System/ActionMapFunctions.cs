@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public static class ActionMapActions
+public static class ActionMapFunctions
 {
     public static void EvaluateAndSwitchActionMap(InputActionMap newActionMap, PlayerInput playerInput, 
                                     PlayerActionsAsset actionsAsset)
@@ -16,9 +16,9 @@ public static class ActionMapActions
         
         switch(newActionMap.name)
         {
-            case "RegularPointAndClick":
+            case "PointAndClick":
                 {
-                    actionsAsset.RegularPointAndClick.Enable();
+                    actionsAsset.PointAndClick.Enable();
                     break;
                 }
             case "MapControls":
@@ -49,9 +49,9 @@ public static class ActionMapActions
     {        
         switch (playerInput.currentActionMap.name)
         {
-            case "RegularPointAndClick":
+            case "PointAndClick":
                 {
-                    actionsAsset.RegularPointAndClick.Disable();
+                    actionsAsset.PointAndClick.Disable();
                     break;
                 }
             case "MapControls":

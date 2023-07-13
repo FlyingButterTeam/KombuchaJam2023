@@ -2,7 +2,7 @@
     "name": "PlayerActionsAsset",
     "maps": [
         {
-            "name": "RegularPointAndClick",
+            "name": "PointAndClick",
             "id": "ef30b039-d59b-46e5-870d-e2dd4e9057c2",
             "actions": [
                 {
@@ -713,7 +713,7 @@
                     "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "SkipCinematic",
                     "isComposite": false,
                     "isPartOfComposite": false
