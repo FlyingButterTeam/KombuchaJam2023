@@ -35,6 +35,30 @@ public class MapButton : MonoBehaviour
         }
     }
 
+    PlayerInput _myPlayerInput;
+    PlayerInput MyPlayerInput
+    {
+        get
+        {
+            if (_myPlayerInput == null)
+                _myPlayerInput = GameStateManager.instance.MyPlayerInput;
+
+            return _myPlayerInput;
+        }
+    }
+
+    DialogueMapTransitionManager _myDialogueMapTransitionManager;
+    DialogueMapTransitionManager MyDialogueMapTransitionManager
+    {
+        get
+        {
+            if (_myDialogueMapTransitionManager == null)
+                _myDialogueMapTransitionManager = DialogueMapTransitionManager.instance;
+
+            return _myDialogueMapTransitionManager;
+        }
+    }
+
     #endregion
 
     [Header("References")]
@@ -49,28 +73,23 @@ public class MapButton : MonoBehaviour
             return;
         }
 
-
-        if (!buttonClicked)
-        {
-            if (activeButtonShadowCoroutine != null)
-                highlight.SetActive(false);
-            else
-                highlight.SetActive(true);
-
-            return;
-        }
-
-        // Button Clicked Logic
-        buttonClicked = false;
-
+        if (activeButtonShadowCoroutine != null)
+            highlight.SetActive(false);
+        else
+            highlight.SetActive(true);
     }
 
-    bool buttonClicked = false;
 
     public void ClickMapButton()
     {
+        if (MyPlayerInput.currentActionMap.name != "MapControls" 
+            && MyPlayerInput.currentActionMap.name != "PointAndClick")
+        {
+            return;
+        }
+
         PressButtonAnimation();
-        buttonClicked = true;
+        MyDialogueMapTransitionManager.PressMapButton();
     }
 
 
@@ -106,9 +125,9 @@ public class MapButton : MonoBehaviour
     #region Button Shadow when Clicked
 
     Coroutine activeButtonShadowCoroutine;
-    const float pressInDuration = 0.1f;
-    const float pressOutDuration = 0.3f;
-    Color pressImageColor = new Color(0.8f, 0.8f, 0.8f);
+    const float pressInDuration = 0.05f;
+    const float pressOutDuration = 0.2f;
+    Color pressImageColor = new Color(0.7f, 0.7f, 0.7f);
 
     void PressButtonAnimation()
     {

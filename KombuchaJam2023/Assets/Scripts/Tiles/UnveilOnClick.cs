@@ -32,6 +32,30 @@ public class UnveilOnClick : MonoBehaviour
         }
     }
 
+    DialogueMapTransitionManager _myDialogueMapTransitionManager;
+    DialogueMapTransitionManager MyDialogueMapTransitionManager
+    {
+        get
+        {
+            if (_myDialogueMapTransitionManager == null)
+                _myDialogueMapTransitionManager = DialogueMapTransitionManager.instance;
+
+            return _myDialogueMapTransitionManager;
+        }
+    }
+
+    PlayerInput _myPlayerInput;
+    PlayerInput MyPlayerInput
+    {
+        get
+        {
+            if (_myPlayerInput == null)
+                _myPlayerInput = GameStateManager.instance.MyPlayerInput;
+
+            return _myPlayerInput;
+        }
+    }
+
     #endregion
 
     [SerializeField] GameObject selectedFrame;
@@ -51,11 +75,12 @@ public class UnveilOnClick : MonoBehaviour
         // Else
         selectedFrame.SetActive(true);
 
-        if(PlayerActions.MapControls.Click.WasPressedThisFrame())
+        if(PlayerActions.MapControls.Click.WasPressedThisFrame() 
+            && MyPlayerInput.currentActionMap.name == "MapControls")
         {
             MyMapTile.Visibility = MapTile.TileVisibility.visible;
 
-            BlackoutController.instance.ActivateBlackoutAnimation(0.5f, 0.2f, 0.3f);
+            MyDialogueMapTransitionManager.CloseMapOpenDialogue(MyMapTile.position);
         }
     }
 
