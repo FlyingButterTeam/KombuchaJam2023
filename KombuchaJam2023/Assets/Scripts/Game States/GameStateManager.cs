@@ -111,4 +111,45 @@ public class GameStateManager : StateMachine
         // DEBUG CODE
         MyStateType = StateMachineMode.exploreMap;
     }
+
+
+    #region State Change Transition
+
+    public void ChangeStateWithTransition(StateMachineMode stateToTransitionInto, float transitionDuration)
+    {
+        if(stateToTransitionInto == StateMachineMode.undertermined 
+            || stateToTransitionInto == StateMachineMode.transition)
+        {
+            Debug.LogError("Cannot transition into state " + stateToTransitionInto + ".");
+            return;
+        }
+        
+        StopTransitionCoroutine();
+
+        activeTransitionCoroutine = StartCoroutine(StateTranstion(stateToTransitionInto, transitionDuration));
+    }
+
+    Coroutine activeTransitionCoroutine;
+
+    void StopTransitionCoroutine()
+    {
+        if (activeTransitionCoroutine == null)
+            return;
+
+        StopCoroutine(activeTransitionCoroutine);
+        activeTransitionCoroutine = null;
+    }
+
+    IEnumerator StateTranstion(StateMachineMode stateToTransitionInto, float transitionDuration)
+    {
+        MyStateType = StateMachineMode.transition;
+
+        yield return new WaitForSeconds(transitionDuration);
+
+        MyStateType = stateToTransitionInto;
+
+        activeTransitionCoroutine = null;
+    }
+
+    #endregion
 }
