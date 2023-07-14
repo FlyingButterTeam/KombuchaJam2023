@@ -54,6 +54,8 @@ public class UnveilOnClick : MonoBehaviour
         if(PlayerActions.MapControls.Click.WasPressedThisFrame())
         {
             MyMapTile.Visibility = MapTile.TileVisibility.visible;
+
+            BlackoutController.instance.ActivateBlackoutAnimation(0.5f, 0.2f, 0.3f);
         }
     }
 
