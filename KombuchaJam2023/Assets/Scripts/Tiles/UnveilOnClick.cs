@@ -80,6 +80,9 @@ public class UnveilOnClick : MonoBehaviour
         {
             MyMapTile.Visibility = MapTile.TileVisibility.visible;
 
+            isMouseOverTile = false;
+            selectedFrame.SetActive(false);
+
             MyDialogueMapTransitionManager.CloseMapOpenDialogue(MyMapTile.position);
         }
     }
@@ -88,4 +91,10 @@ public class UnveilOnClick : MonoBehaviour
 
     private void OnMouseOver() => isMouseOverTile = true;
     private void OnMouseExit() => isMouseOverTile = false;
+
+    private void OnDisable()
+    {
+        selectedFrame.SetActive(false);
+        isMouseOverTile = false;
+    }
 }

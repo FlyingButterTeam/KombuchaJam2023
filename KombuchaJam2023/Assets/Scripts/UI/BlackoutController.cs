@@ -17,7 +17,8 @@ public class BlackoutController : MonoBehaviour
             instance = this;
         else
         {
-            Debug.LogError("You can't have 2 BlackoutController scripts. BlackoutController contains a static reference.");
+            Debug.LogError("You can't have 2 BlackoutController scripts. " +
+                "BlackoutController contains a static reference.");
             Destroy(this);
         }
     }

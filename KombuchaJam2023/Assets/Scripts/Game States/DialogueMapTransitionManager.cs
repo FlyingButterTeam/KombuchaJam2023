@@ -16,7 +16,7 @@ public class DialogueMapTransitionManager : MonoBehaviour
             return;
         }
 
-        Debug.LogError("Duplicated static reference. There are multiple instances of GameStateManager. " +
+        Debug.LogError("Duplicated static reference. There are multiple instances of DialogueMapTransitionManager. " +
             "Destroying this instance.");
         Destroy(this.gameObject);
     }
@@ -46,6 +46,18 @@ public class DialogueMapTransitionManager : MonoBehaviour
                 _myBlackoutController = BlackoutController.instance;
 
             return _myBlackoutController;
+        }
+    }
+
+    DialogueSceneManager _myDialogueSceneManager;
+    DialogueSceneManager MyDialogueSceneManager
+    {
+        get
+        {
+            if (_myDialogueSceneManager == null)
+                _myDialogueSceneManager = DialogueSceneManager.instance;
+        
+            return _myDialogueSceneManager;
         }
     }
 
@@ -153,7 +165,7 @@ public class DialogueMapTransitionManager : MonoBehaviour
             middleWaitPercentageTransition = 0;
         }
 
-        // Functionality of clicking a new Tile.
+        MyDialogueSceneManager.ActivateTileScene(newTileToExplore);
 
         CloseMapOpenDialogue();
     }

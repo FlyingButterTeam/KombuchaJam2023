@@ -2,14 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TileScene : MonoBehaviour
+public class TileDialogueScene : MonoBehaviour
 {
-    [SerializeField] Vector2 position = Vector2.zero;
+    public Vector2 position = Vector2.zero;
 
-
-    private void OnEnable()
+    public void OpenTile()
     {
-        
+        //
     }
 
 
