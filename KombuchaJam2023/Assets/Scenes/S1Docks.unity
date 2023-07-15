@@ -2454,6 +2454,8 @@ GameObject:
   - component: {fileID: 2034127688}
   - component: {fileID: 2034127687}
   - component: {fileID: 2034127686}
+  - component: {fileID: 2034127704}
+  - component: {fileID: 2034127706}
   m_Layer: 0
   m_Name: Flowchart_Scene1
   m_TagString: Untagged
@@ -2474,7 +2476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 542.7513, y: 51.30174}
+  scrollPos: {x: 540.5535, y: 37.01602}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 504
@@ -2486,9 +2488,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2034127685}
-  selectedCommands:
-  - {fileID: 2034127692}
+  - {fileID: 2034127666}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -2798,6 +2799,7 @@ MonoBehaviour:
   - {fileID: 2034127698}
   - {fileID: 2034127697}
   - {fileID: 2034127696}
+  - {fileID: 2034127706}
   suppressAllAutoSelections: 0
 --- !u!114 &2034127667
 MonoBehaviour:
@@ -3327,6 +3329,7 @@ MonoBehaviour:
   - {fileID: 2034127688}
   - {fileID: 2034127687}
   - {fileID: 2034127686}
+  - {fileID: 2034127704}
   suppressAllAutoSelections: 0
 --- !u!114 &2034127686
 MonoBehaviour:
@@ -3802,6 +3805,52 @@ MonoBehaviour:
   storyText: Sounds doable! Where do I sign?
   description: 
   character: {fileID: 466497630}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2034127704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034127654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 46
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: S2Beach
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &2034127706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034127654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 48
+  indentLevel: 0
+  storyText: 'END ROLL CREDITS > MAIN MENU '
+  description: 
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1

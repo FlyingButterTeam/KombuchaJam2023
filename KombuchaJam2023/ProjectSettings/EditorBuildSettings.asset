@@ -8,5 +8,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/S1Docks.unity
+    guid: 71248ef2d4e2b9e42a709438a45f2eb2
+  - enabled: 1
+    path: Assets/Scenes/S2Beach.unity
+    guid: 557474f32adfe664ea2e89403f556d43
+  - enabled: 1
+    path: Assets/Scenes/S3Hut.unity
+    guid: 2f589ae7db42c1a4987c0062bb92ad46
+  - enabled: 1
+    path: Assets/Scenes/S4Oasis.unity
+    guid: ac8dfc5efbb494145b9917295ecaf71d
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 971e0ef295df7b041b92289f3ebffe95, type: 2}
