@@ -20,5 +20,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/S4Oasis.unity
     guid: ac8dfc5efbb494145b9917295ecaf71d
+  - enabled: 1
+    path: Assets/Scenes/S5Cave.unity
+    guid: 6ff7fa67a3807284896ae25373756149
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 971e0ef295df7b041b92289f3ebffe95, type: 2}
