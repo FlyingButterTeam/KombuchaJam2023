@@ -47,20 +47,20 @@ public class GameStateManager : StateMachine
     StateMachineMode _myStateType = GameStateManager.StateMachineMode.undertermined;
     public StateMachineMode MyStateType
     {
-        get { return _myStateType;}
+        get { return _myStateType; }
         set
         {
             if (_myStateType == value)
                 return;
 
-            if(value == StateMachineMode.undertermined)
+            if (value == StateMachineMode.undertermined)
             {
                 Debug.LogError("Undertermined is exclusively the default type for the GameStateManager." +
                     "\nGameStateManager StateType cannot be set to default.");
                 return;
             }
 
-            switch(value)
+            switch (value)
             {
                 case StateMachineMode.pointAndClick:
                     State = new PointAndClickState(this);
@@ -87,7 +87,7 @@ public class GameStateManager : StateMachine
         }
     }
 
-    
+
     private void Awake()
     {
         InitializeStaticReference();
@@ -112,7 +112,7 @@ public class GameStateManager : StateMachine
             Debug.LogWarning("Trying to End Dialogue when we are not currently in Dialogue Mode.");
             return;
         }
-        
+
         MyStateType = StateMachineMode.pointAndClick;
     }
 
@@ -121,13 +121,13 @@ public class GameStateManager : StateMachine
 
     public void ChangeStateWithTransition(StateMachineMode stateToTransitionInto, float transitionDuration)
     {
-        if(stateToTransitionInto == StateMachineMode.undertermined 
+        if (stateToTransitionInto == StateMachineMode.undertermined
             || stateToTransitionInto == StateMachineMode.transition)
         {
             Debug.LogError("Cannot transition into state " + stateToTransitionInto + ".");
             return;
         }
-        
+
         StopTransitionCoroutine();
 
         activeTransitionCoroutine = StartCoroutine(StateTranstion(stateToTransitionInto, transitionDuration));
