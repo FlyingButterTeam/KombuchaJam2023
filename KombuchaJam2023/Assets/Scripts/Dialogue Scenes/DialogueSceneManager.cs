@@ -78,4 +78,9 @@ public class DialogueSceneManager : MonoBehaviour
         currentlyActiveTileScene = position;
         myDialogueSceneDictionary[position].OpenTile();
     }
+
+    public void SetActiveClickableObjectsOnActiveScene(bool isActive)
+    {
+        myDialogueSceneDictionary[currentlyActiveTileScene].SetActiveClickableObjects(isActive);
+    }
 }

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.InputSystem;
 using static UnityEngine.Rendering.DebugUI;
 using static GameStateManager;
 
@@ -23,27 +22,15 @@ public class MapButton : MonoBehaviour
         }
     }
 
-    PlayerActionsAsset _playerActions;
-    PlayerActionsAsset PlayerActions
+    GameStateManager _myStateManager;
+    GameStateManager MyStateManager
     {
         get
         {
-            if (_playerActions == null)
-                _playerActions = GameStateManager.instance.ActionsAsset;
+            if (_myStateManager == null)
+                _myStateManager = GameStateManager.instance;
 
-            return _playerActions;
-        }
-    }
-
-    PlayerInput _myPlayerInput;
-    PlayerInput MyPlayerInput
-    {
-        get
-        {
-            if (_myPlayerInput == null)
-                _myPlayerInput = GameStateManager.instance.MyPlayerInput;
-
-            return _myPlayerInput;
+            return _myStateManager;
         }
     }
 
@@ -82,8 +69,8 @@ public class MapButton : MonoBehaviour
 
     public void ClickMapButton()
     {
-        if (MyPlayerInput.currentActionMap.name != "MapControls" 
-            && MyPlayerInput.currentActionMap.name != "PointAndClick")
+        if (MyStateManager.MyStateType != GameStateManager.StateMachineMode.exploreMap
+            && MyStateManager.MyStateType != GameStateManager.StateMachineMode.pointAndClick)
         {
             return;
         }

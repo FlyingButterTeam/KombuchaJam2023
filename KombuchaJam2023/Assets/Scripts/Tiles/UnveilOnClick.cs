@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.EventSystems;
 
 public class UnveilOnClick : MonoBehaviour
@@ -20,15 +19,15 @@ public class UnveilOnClick : MonoBehaviour
         }
     }
 
-    PlayerActionsAsset _playerActions;
-    PlayerActionsAsset PlayerActions
+    GameStateManager _myStateManager;
+    GameStateManager MyStateManager
     {
         get
         {
-            if (_playerActions == null)
-                _playerActions = GameStateManager.instance.ActionsAsset;
+            if (_myStateManager == null)
+                _myStateManager = GameStateManager.instance;
 
-            return _playerActions;
+            return _myStateManager;
         }
     }
 
@@ -41,18 +40,6 @@ public class UnveilOnClick : MonoBehaviour
                 _myDialogueMapTransitionManager = DialogueMapTransitionManager.instance;
 
             return _myDialogueMapTransitionManager;
-        }
-    }
-
-    PlayerInput _myPlayerInput;
-    PlayerInput MyPlayerInput
-    {
-        get
-        {
-            if (_myPlayerInput == null)
-                _myPlayerInput = GameStateManager.instance.MyPlayerInput;
-
-            return _myPlayerInput;
         }
     }
 
@@ -75,8 +62,9 @@ public class UnveilOnClick : MonoBehaviour
         // Else
         selectedFrame.SetActive(true);
 
-        if(PlayerActions.MapControls.Click.WasPressedThisFrame() 
-            && MyPlayerInput.currentActionMap.name == "MapControls")
+        if(Input.GetKeyDown(KeyCode.Mouse0) && 
+            (MyStateManager.MyStateType == GameStateManager.StateMachineMode.exploreMap ||
+             MyStateManager.MyStateType == GameStateManager.StateMachineMode.pointAndClick))
         {
             MyMapTile.Visibility = MapTile.TileVisibility.visible;
 

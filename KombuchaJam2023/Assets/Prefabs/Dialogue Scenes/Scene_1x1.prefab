@@ -11,6 +11,11 @@ GameObject:
   - component: {fileID: 1826900866800515683}
   - component: {fileID: 1539335329789398061}
   - component: {fileID: 2646347605762473372}
+  - component: {fileID: 1166607722}
+  - component: {fileID: 1166607724}
+  - component: {fileID: 7796156596801666396}
+  - component: {fileID: 3184205159750361417}
+  - component: {fileID: 1166607729}
   m_Layer: 0
   m_Name: Scene_1x1
   m_TagString: Untagged
@@ -48,6 +53,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position: {x: 1, y: 1}
+  clickableObjects: {fileID: 8175554987879768266}
 --- !u!114 &2646347605762473372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,19 +67,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 607.0218, y: 34.34622}
+  scrollPos: {x: 398.90173, y: -56.85469}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.52000046
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: 0
     y: 0
     width: 0
     height: 0
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1166607722}
+  selectedCommands:
+  - {fileID: 1166607724}
   variables: []
   description: 
   stepPause: 0
@@ -85,6 +93,126 @@ MonoBehaviour:
   hideCommands: []
   luaEnvironment: {fileID: 0}
   luaBindingName: flowchart
+--- !u!114 &1166607722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3869355284958171775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 21.900696
+    y: 137.5767
+    width: 112.4
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 0
+  blockName: PlayScene
+  description: Block that begins the dialogue when the tile gets opened.
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1166607724}
+  - {fileID: 1166607729}
+  suppressAllAutoSelections: 0
+--- !u!114 &1166607724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3869355284958171775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1
+  indentLevel: 0
+  storyText: < Default Text >
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &7796156596801666396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3869355284958171775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 286.09827
+    y: 142.85469
+    width: 122.8
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 2
+  blockName: EndDialogue
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 3184205159750361417}
+  suppressAllAutoSelections: 0
+--- !u!114 &3184205159750361417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3869355284958171775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 5
+  indentLevel: 0
+  targetObject: {fileID: 0}
+  methodName: EndDialogue
+  delay: 0.2
+--- !u!114 &1166607729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3869355284958171775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 6
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 7796156596801666396}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1 &4003127048158816668
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,7 +285,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 6b100daff28d04f69a49015f83966425, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -274,7 +402,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d3b6d7e5887554602baab879da8171d7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 76a1572c73453431aacb9f1f816e1fed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

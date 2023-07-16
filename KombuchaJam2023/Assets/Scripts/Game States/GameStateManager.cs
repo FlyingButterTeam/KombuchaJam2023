@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class GameStateManager : StateMachine
 {
@@ -27,43 +26,24 @@ public class GameStateManager : StateMachine
 
     #region Self-Initiated References
 
-    PlayerInput _myPlayerInput;
-    public PlayerInput MyPlayerInput
+    DialogueSceneManager _myDialogueSceneManager;
+    DialogueSceneManager MyDialogueSceneManager
     {
         get
         {
-            if(_myPlayerInput == null)
-            {
-                if (TryGetComponent<PlayerInput>(out PlayerInput input))
-                    _myPlayerInput = input;
-                else
-                    Debug.LogError("Could not find a PlayerInput Component attached to the same GameObject " +
-                        "as the GameStateManager.");
-            }
+            if (_myDialogueSceneManager == null)
+                _myDialogueSceneManager = DialogueSceneManager.instance;
 
-            return _myPlayerInput;
-        }
-    }
-
-    PlayerActionsAsset _actionsAsset;
-    public PlayerActionsAsset ActionsAsset
-    {
-        get
-        {
-            if(_actionsAsset == null)
-            {
-                _actionsAsset = new PlayerActionsAsset();
-                _actionsAsset.PointAndClick.Enable();
-            }
-            
-            return _actionsAsset;
+            return _myDialogueSceneManager;
         }
     }
 
     #endregion
 
+    [SerializeField] GameObject mapButtonAndInventoryInterface;
+
     // Undertermined StateType should only be used as a default type for the GameStateManager.
-    public enum StateMachineMode { undertermined, pointAndClick, exploreMap, transition }
+    public enum StateMachineMode { undertermined, pointAndClick, inDialogue, exploreMap, transition }
     StateMachineMode _myStateType = GameStateManager.StateMachineMode.undertermined;
     public StateMachineMode MyStateType
     {
@@ -90,6 +70,10 @@ public class GameStateManager : StateMachine
                     State = new MapExploringState(this);
                     break;
 
+                case StateMachineMode.inDialogue:
+                    State = new DialogueState(this);
+                    break;
+
                 case StateMachineMode.transition:
                     State = new TransitionState(this);
                     break;
@@ -110,6 +94,26 @@ public class GameStateManager : StateMachine
 
         // DEBUG CODE
         MyStateType = StateMachineMode.exploreMap;
+    }
+
+    public void SetActiveMapButtonAndInventoryInterface(bool isActive)
+    {
+        mapButtonAndInventoryInterface.SetActive(isActive);
+    }
+    public void SetActiveClickableObjectsInScene(bool isActive)
+    {
+        MyDialogueSceneManager.SetActiveClickableObjectsOnActiveScene(isActive);
+    }
+
+    public void EndDialogue()
+    {
+        if (MyStateType != StateMachineMode.inDialogue)
+        {
+            Debug.LogWarning("Trying to End Dialogue when we are not currently in Dialogue Mode.");
+            return;
+        }
+        
+        MyStateType = StateMachineMode.pointAndClick;
     }
 
 

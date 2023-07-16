@@ -164,12 +164,29 @@ public class DialogueMapTransitionManager : MonoBehaviour
                 "of a Blackout cannot equal or exceed 100%. Setting the Middle Wait % to 0.");
             middleWaitPercentageTransition = 0;
         }
+        if(newTileToExplore == MyDialogueSceneManager.currentlyActiveTileScene)
+        {
+            CloseMapOpenDialogue();
+            return;
+        }
 
-        MyDialogueSceneManager.ActivateTileScene(newTileToExplore);
+        MyGameStateManager.ChangeStateWithTransition(GameStateManager.StateMachineMode.inDialogue, 
+            transitionDuration * (fadeInPercentageTransition + middleWaitPercentageTransition));
 
-        CloseMapOpenDialogue();
+        WaitAndActivateTileScene(newTileToExplore, transitionDuration *
+            (fadeInPercentageTransition + middleWaitPercentageTransition));
+
+        MyBlackoutController.ActivateBlackoutAnimation
+            (transitionDuration * fadeInPercentageTransition,
+             transitionDuration * middleWaitPercentageTransition,
+             transitionDuration * (1 - fadeInPercentageTransition - middleWaitPercentageTransition));
+
+        // We swap when we are in the middle of our Middle Wait for an excellent transition.
+        WaitAndToggleMapDialogue(transitionDuration
+            * (fadeInPercentageTransition + middleWaitPercentageTransition * 0.5f));
     }
 
+    #region Toggle Map-Dialogue Coroutine
 
     Coroutine activeMapDialogueToggleCoroutine = null;
 
@@ -223,4 +240,56 @@ public class DialogueMapTransitionManager : MonoBehaviour
 
         activeMapDialogueToggleCoroutine = null;
     }
+
+    #endregion
+
+    #region Activate TileScene After Time Coroutine
+
+    Coroutine activeTileSceneCoroutine = null;
+
+    void WaitAndActivateTileScene(Vector2 newTileToExplore, float waitForThisLongBeforeToggle)
+    {
+        StopActivateTileSceneCoroutine();
+
+        activeTileSceneCoroutine = 
+            StartCoroutine(WaitAndActivateScene(newTileToExplore, waitForThisLongBeforeToggle));
+    }
+
+    void StopActivateTileSceneCoroutine()
+    {
+        if (activeTileSceneCoroutine == null)
+            return;
+
+        Debug.LogWarning("You shouldn't need to cancel any Coroutine that activates a Tile Scene." +
+            "What are you doing? :(");
+
+        StopCoroutine(activeTileSceneCoroutine);
+        activeTileSceneCoroutine = null;
+    }
+
+
+    IEnumerator WaitAndActivateScene(Vector2 newTileToExplore, float waitForThisLongBeforeToggle)
+    {
+        if (waitForThisLongBeforeToggle == 0)
+        {
+            Debug.LogWarning("WaitAndActivateScene Coroutine should have a duration bigger than 0 to avoid " +
+                "unexpected behaviors.");
+        }
+        else
+        {
+            Timer waitTimer = new Timer(waitForThisLongBeforeToggle);
+
+            while (!waitTimer.IsComplete)
+            {
+                waitTimer.Update();
+                yield return null;
+            }
+        }
+
+        MyDialogueSceneManager.ActivateTileScene(newTileToExplore);
+
+        activeTileSceneCoroutine = null;
+    }
+
+    #endregion
 }
