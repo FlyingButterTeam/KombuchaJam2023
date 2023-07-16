@@ -9730,68 +9730,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1814224235
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814224233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 563.6618
-    y: 384.41815
-    width: 224.46808
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 199
-  blockName: Opens map to S5 cave (Copy)
-  description: 
-  eventHandler: {fileID: 1814224237}
-  commandList:
-  - {fileID: 1814224236}
-  suppressAllAutoSelections: 0
---- !u!114 &1814224236
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814224233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 158
-  indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: S5Cave
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
---- !u!114 &1814224237
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814224233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1814224235}
-  suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 0}
-  waitFrames: 1
 --- !u!114 &1814224238
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -14837,192 +14775,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 1814224311}
   suppressAllAutoSelections: 0
---- !u!114 &1814224313
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814224233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1814224315}
-  suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 0}
-  waitFrames: 1
---- !u!114 &1814224314
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814224233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 201
-  indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: S7Monkey
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
---- !u!114 &1814224315
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814224233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 572.4239
-    y: 453.94556
-    width: 239.3617
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 202
-  blockName: Opens map to S7Monkey (Copy)
-  description: 
-  eventHandler: {fileID: 1814224313}
-  commandList:
-  - {fileID: 1814224314}
-  suppressAllAutoSelections: 0
---- !u!114 &1814224316
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814224233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1814224318}
-  suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 0}
-  waitFrames: 1
---- !u!114 &1814224317
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814224233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 155
-  indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: S4Oasis
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
---- !u!114 &1814224318
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814224233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 571.405
-    y: 319.8359
-    width: 227.65956
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 156
-  blockName: Opens map to S4 Oasis (Copy)
-  description: 
-  eventHandler: {fileID: 1814224316}
-  commandList:
-  - {fileID: 1814224317}
-  suppressAllAutoSelections: 0
---- !u!114 &1814224319
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814224233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1814224321}
-  suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 0}
-  waitFrames: 1
---- !u!114 &1814224320
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814224233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 145
-  indentLevel: 0
-  _sceneName:
-    stringRef: {fileID: 0}
-    stringVal: S3Hut
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
---- !u!114 &1814224321
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1814224233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 576.93787
-    y: 264.51685
-    width: 215.95744
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 153
-  blockName: Opens map to S3 Hut (Copy)
-  description: 
-  eventHandler: {fileID: 1814224319}
-  commandList:
-  - {fileID: 1814224320}
-  suppressAllAutoSelections: 0
 --- !u!114 &1814224322
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -15965,6 +15717,7 @@ MonoBehaviour:
   - {fileID: 1814224339}
   - {fileID: 1814224338}
   - {fileID: 1814224337}
+  - {fileID: 1814224503}
   - {fileID: 1814224336}
   - {fileID: 1814224335}
   - {fileID: 1814224334}
@@ -16744,7 +16497,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 109
   indentLevel: 0
-  storyText: "*Covers his eyes with his hands \r"
+  storyText: "{b}{i}{color=yellow}Covers his eyes with his hands \r {/color} {/i} 
+    {/b} \r "
   description: 
   character: {fileID: 481848699}
   portrait: {fileID: 0}
@@ -16798,7 +16552,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 107
   indentLevel: 0
-  storyText: "*Pulls of his clothes and runs into the sea splashing about*\r"
+  storyText: "{b}{i}{color=yellow}Pulls of his clothes and runs into the sea splashing
+    about\r {/color} {/i}  {/b}"
   description: 
   character: {fileID: 1920869795}
   portrait: {fileID: 0}
@@ -16854,7 +16609,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 105
   indentLevel: 0
-  storyText: '*looks at the water
+  storyText: '{b}{i}{color=yellow}Looks at the water {/color} {/i}  {/b}
 
 
 
@@ -17024,7 +16779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 424
   indentLevel: 0
-  storyText: "Snores\r"
+  storyText: "{b}{i}{color=yellow}Snores {/color} {/i}  {/b} \r \n"
   description: 
   character: {fileID: 1920869795}
   portrait: {fileID: 0}
@@ -17051,9 +16806,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 98
   indentLevel: 0
-  storyText: '*Lays down under a tree and closes his eyes
-
-'
+  storyText: "{b}{i}{color=yellow}Lays down under a tree and closes his eyes\r {/color}
+    {/i}  {/b} \r \n"
   description: 
   character: {fileID: 1920869795}
   portrait: {fileID: 0}
@@ -17162,9 +16916,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 94
   indentLevel: 0
-  storyText: 'Yawns
-
-'
+  storyText: "{b}{i}{color=yellow}Yawns \r {/color} {/i}  {/b} \r "
   description: 
   character: {fileID: 1395565989}
   portrait: {fileID: 0}
@@ -17191,9 +16943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 93
   indentLevel: 0
-  storyText: 'Grins
-
-'
+  storyText: "{b}{i}{color=yellow}Grins{/color} {/i}  {/b} \r \n"
   description: 
   character: {fileID: 481848699}
   portrait: {fileID: 0}
@@ -17502,7 +17252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 86
   indentLevel: 1
-  storyText: " {b} {i}  {color=yellow} Holds nose\r\r \r {/color} {/i}  {/b}\n\n"
+  storyText: "{b}{i}{color=yellow}Holds nose\r\r \r {/color} {/i}  {/b}\n\n"
   description: 
   character: {fileID: 481848699}
   portrait: {fileID: 0}
@@ -17585,8 +17335,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 83
   indentLevel: 1
-  storyText: " {b} {i}  {color=yellow} Sways from side to side\r \r {/color} {/i} 
-    {/b}\n"
+  storyText: "{b}{i}{color=yellow}Sways from side to side\r \r {/color} {/i}  {/b}\n"
   description: 
   character: {fileID: 1920869795}
   portrait: {fileID: 0}
@@ -17669,7 +17418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 80
   indentLevel: 1
-  storyText: " {b} {i}  {color=yellow} Sniffs\r {/color} {/i}  {/b}\n"
+  storyText: "{b}{i}{color=yellow}Sniffs\r {/color} {/i}  {/b}\n"
   description: 
   character: {fileID: 1395565989}
   portrait: {fileID: 0}
@@ -17723,7 +17472,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 78
   indentLevel: 1
-  storyText: " {b} {i}  {color=yellow} Sniffs\r {/color} {/i}  {/b}\n"
+  storyText: "{b}{i}{color=yellow}Sniffs\r {/color} {/i}  {/b}\n"
   description: 
   character: {fileID: 481848699}
   portrait: {fileID: 0}
@@ -17916,7 +17665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 71
   indentLevel: 1
-  storyText: " {b} {i}  {color=yellow} Shakes hand\r \r {/color} {/i}  {/b}\n\n"
+  storyText: "{b}{i}{color=yellow}Shakes hand\r \r {/color} {/i}  {/b}\n\n"
   description: 
   character: {fileID: 1395565989}
   portrait: {fileID: 0}
@@ -17971,7 +17720,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 69
   indentLevel: 1
-  storyText: " {b} {i}  {color=yellow} Extends hand to shake\r {/color} {/i}  {/b}\n\n"
+  storyText: "{b}{i} {color=yellow}Extends hand to shake\r {/color} {/i}  {/b}\n\n"
   description: 
   character: {fileID: 481848699}
   portrait: {fileID: 0}
@@ -17998,7 +17747,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 68
   indentLevel: 1
-  storyText: ' {b} {i}  {color=yellow} Doffs hat {/color} {/i}  {/b}
+  storyText: '{b}{i}{color=yellow}Doffs hat {/color} {/i}  {/b}
 
 '
   description: 
@@ -18220,7 +17969,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 60
   indentLevel: 1
-  storyText: '{b} {i} {color=yellow} Hiccups {/color} {/i}  {/b}'
+  storyText: '{b}{i}{color=yellow}Hiccups {/color} {/i}  {/b}'
   description: 
   character: {fileID: 1920869795}
   portrait: {fileID: 0}
@@ -21856,10 +21605,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 436
   indentLevel: 0
-  storyText: 'Yawns
-
-
-'
+  storyText: "{b}{i}{color=yellow}Yawns\r {/color} {/i}  {/b} \r "
   description: 
   character: {fileID: 1920869795}
   portrait: {fileID: 0}
@@ -21872,6 +21618,23 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1814224503
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814224233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 437
+  indentLevel: 1
+  soundClip: {fileID: 8300000, guid: 9a6ebc7a48fd7cd418f09cc5fddf500e, type: 3}
+  volume: 1
+  waitUntilFinished: 0
 --- !u!1 &1819378842
 GameObject:
   m_ObjectHideFlags: 0
