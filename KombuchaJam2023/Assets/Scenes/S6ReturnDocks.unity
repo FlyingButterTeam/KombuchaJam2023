@@ -6214,11 +6214,6 @@ GameObject:
   - component: {fileID: 2034127669}
   - component: {fileID: 2034127668}
   - component: {fileID: 2034127676}
-  - component: {fileID: 2034127675}
-  - component: {fileID: 2034127674}
-  - component: {fileID: 2034127673}
-  - component: {fileID: 2034127672}
-  - component: {fileID: 2034127671}
   - component: {fileID: 2034127678}
   - component: {fileID: 2034127670}
   - component: {fileID: 2034127677}
@@ -6230,6 +6225,8 @@ GameObject:
   - component: {fileID: 2034127662}
   - component: {fileID: 2034127661}
   - component: {fileID: 2034127660}
+  - component: {fileID: 2034127680}
+  - component: {fileID: 2034127681}
   m_Layer: 0
   m_Name: Flowchart_Scene1
   m_TagString: Untagged
@@ -6263,7 +6260,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 2034127657}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 2034127666}
   variables: []
   description: 
   stepPause: 0
@@ -6302,13 +6300,10 @@ MonoBehaviour:
   commandList:
   - {fileID: 2034127679}
   - {fileID: 2034127678}
+  - {fileID: 2034127681}
+  - {fileID: 2034127680}
   - {fileID: 2034127677}
   - {fileID: 2034127676}
-  - {fileID: 2034127675}
-  - {fileID: 2034127674}
-  - {fileID: 2034127673}
-  - {fileID: 2034127672}
-  - {fileID: 2034127671}
   - {fileID: 2034127670}
   - {fileID: 2034127669}
   - {fileID: 2034127668}
@@ -6421,7 +6416,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'TO THE RAVENS!
 
-    
+
 
 '
   description: 
@@ -6653,141 +6648,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &2034127671
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2034127654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 57
-  indentLevel: 0
-  storyText: "*Walks away\r"
-  description: 
-  character: {fileID: 1549618171}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &2034127672
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2034127654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 56
-  indentLevel: 0
-  storyText: "I salute you, Scallywag Sam. \r\n\n"
-  description: 
-  character: {fileID: 1549618171}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &2034127673
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2034127654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 55
-  indentLevel: 0
-  storyText: "Dang Blast it! I guess I\u2019ll try my chances with another crew.\r\n"
-  description: 
-  character: {fileID: 1549618171}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &2034127674
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2034127654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 54
-  indentLevel: 0
-  storyText: '*Hiccups*'
-  description: 
-  character: {fileID: 1882561820}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &2034127675
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2034127654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 53
-  indentLevel: 0
-  storyText: To the loosing contenders, I thank you for your participation.
-  description: 
-  character: {fileID: 290051290}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &2034127676
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6856,7 +6716,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 58
   indentLevel: 0
-  storyText: "\rWell done Scallywag Sam, you are now a crew member of the Ravens.\r\n"
+  storyText: 'We have a winner! '
   description: 
   character: {fileID: 290051290}
   portrait: {fileID: 0}
@@ -6884,6 +6744,62 @@ MonoBehaviour:
   itemId: 49
   indentLevel: 0
   storyText: 'And so the challenge has ended. '
+  description: 
+  character: {fileID: 290051290}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2034127680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034127654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 69
+  indentLevel: 0
+  storyText: 'You are now a crew member of the Ravens.
+
+'
+  description: 
+  character: {fileID: 290051290}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2034127681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034127654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 70
+  indentLevel: 0
+  storyText: 'Well done Scallywag Sam for finding the treasure. '
   description: 
   character: {fileID: 290051290}
   portrait: {fileID: 0}
