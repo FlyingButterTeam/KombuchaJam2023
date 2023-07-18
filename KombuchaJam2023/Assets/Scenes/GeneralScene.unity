@@ -4082,7 +4082,9 @@ MonoBehaviour:
   nameText: Parrot
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: c7fb01de92235ee47bf7baf47b5359a9, type: 3}
+  - {fileID: 21300000, guid: 149520f65b7a4ac498f2d0f6898ff1dd, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 1803032843}
   description: 
@@ -9816,7 +9818,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 559.3666
     y: 197.76247
-    width: 117.07316
+    width: 117.04545
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9930,7 +9932,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 551.0371
     y: 502.13635
-    width: 128.04877
+    width: 128.40909
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10055,7 +10057,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 566.081
     y: 449.0531
-    width: 107.31706
+    width: 106.81818
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10128,7 +10130,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 566.92145
     y: 380.66248
-    width: 113.41462
+    width: 111.36363
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11687,7 +11689,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 545.77216
     y: 616.9472
-    width: 120.73169
+    width: 119.31818
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13262,7 +13264,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 561.10834
     y: 560.7813
-    width: 115.853645
+    width: 114.77272
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14837,7 +14839,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 558.8102
     y: 325.39038
-    width: 117.07316
+    width: 115.90908
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14925,7 +14927,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 543.8247
     y: 136.8944
-    width: 141.4634
+    width: 137.5
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14954,7 +14956,7 @@ MonoBehaviour:
   storyText: '{i}{b}{color=yellow}Closes eyes {/color}{/b}{/i}'
   description: 
   character: {fileID: 683973219}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: c7fb01de92235ee47bf7baf47b5359a9, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15008,7 +15010,7 @@ MonoBehaviour:
   storyText: '{i}{b}{color=yellow}Opens one eye and gives me an evil stare... {/color}{/b}{/i}'
   description: 
   character: {fileID: 683973219}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 149520f65b7a4ac498f2d0f6898ff1dd, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15034,7 +15036,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 308.7895
     y: 380.52188
-    width: 80.4878
+    width: 78.40909
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15071,7 +15073,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 683973219}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 149520f65b7a4ac498f2d0f6898ff1dd, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15098,7 +15100,7 @@ MonoBehaviour:
   storyText: Shiver me timbers!
   description: 
   character: {fileID: 683973219}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 149520f65b7a4ac498f2d0f6898ff1dd, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15126,8 +15128,8 @@ MonoBehaviour:
 
 '
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 683973219}
+  portrait: {fileID: 21300000, guid: 149520f65b7a4ac498f2d0f6898ff1dd, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15180,7 +15182,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 320.88647
     y: 512.7597
-    width: 65.85365
+    width: 65.90909
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15268,7 +15270,7 @@ MonoBehaviour:
   storyText: '{i}{b}{color=yellow}Sloppy kiss sound{/color}{/b}{/i}'
   description: 
   character: {fileID: 683973219}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 149520f65b7a4ac498f2d0f6898ff1dd, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15293,8 +15295,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 318.25708
-    y: 566.4154
-    width: 71.95122
+    y: 567.55176
+    width: 70.454544
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15529,7 +15531,7 @@ MonoBehaviour:
   storyText: Give us a kiss!
   description: 
   character: {fileID: 683973219}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 149520f65b7a4ac498f2d0f6898ff1dd, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15556,7 +15558,7 @@ MonoBehaviour:
   storyText: Give us a kiss!
   description: 
   character: {fileID: 683973219}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 149520f65b7a4ac498f2d0f6898ff1dd, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15583,7 +15585,7 @@ MonoBehaviour:
   storyText: 'Spike! '
   description: 
   character: {fileID: 683973219}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 149520f65b7a4ac498f2d0f6898ff1dd, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15610,7 +15612,7 @@ MonoBehaviour:
   storyText: 'Spike! '
   description: 
   character: {fileID: 683973219}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 149520f65b7a4ac498f2d0f6898ff1dd, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15663,7 +15665,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 222.09398
     y: 514.57275
-    width: 75.60975
+    width: 75
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15877,7 +15879,7 @@ MonoBehaviour:
   storyText: '{i}{b}{color=yellow}Pecks {/color}{/b}{/i}'
   description: 
   character: {fileID: 683973219}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 149520f65b7a4ac498f2d0f6898ff1dd, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15901,9 +15903,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 316.33368
+    x: 317.47003
     y: 447.8595
-    width: 69.51219
+    width: 69.31818
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16017,7 +16019,7 @@ MonoBehaviour:
   storyText: You woke me up! You woke me up!
   description: 
   character: {fileID: 683973219}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 149520f65b7a4ac498f2d0f6898ff1dd, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16046,7 +16048,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 683973219}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 149520f65b7a4ac498f2d0f6898ff1dd, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16073,7 +16075,7 @@ MonoBehaviour:
   storyText: '{i}{b}{color=yellow}Eyes open {/color}{/b}{/i}'
   description: 
   character: {fileID: 683973219}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 149520f65b7a4ac498f2d0f6898ff1dd, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16497,7 +16499,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 113.96301
     y: 380.26288
-    width: 84.14633
+    width: 85.227264
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16903,7 +16905,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 559.44135
     y: 261.07693
-    width: 130.4878
+    width: 128.40909
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17665,7 +17667,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 114.85251
     y: 210.87558
-    width: 90.2439
+    width: 88.63636
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18910,7 +18912,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 114.53441
     y: 298.35147
-    width: 79.26829
+    width: 80.681816
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22053,7 +22055,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 32.61473
     y: 135.11699
-    width: 76.82926
+    width: 78.40909
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23389,7 +23391,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1501953928
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -25294,7 +25296,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -178.5, y: 263.13}
+  m_AnchoredPosition: {x: -735, y: 357}
   m_SizeDelta: {x: 357, y: 435}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1719843599
