@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/S1Docks.unity
     guid: 71248ef2d4e2b9e42a709438a45f2eb2
   - enabled: 1
+    path: Assets/Scenes/GeneralScene.unity
+    guid: c31e7f2737a5b844dbbf813545693ed1
+  - enabled: 1
     path: Assets/Scenes/S2Beach.unity
     guid: 557474f32adfe664ea2e89403f556d43
   - enabled: 1
