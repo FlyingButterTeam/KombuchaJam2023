@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &674998
 Transform:
   m_ObjectHideFlags: 0
@@ -612,7 +612,7 @@ SpriteRenderer:
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 6b100daff28d04f69a49015f83966425, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -629,7 +629,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 33366580}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.24, y: -0.49, z: 0}
+  m_LocalPosition: {x: 2.25, y: -0.49, z: 0}
   m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -671,8 +671,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 46213111}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.28, y: -1.36, z: 0}
-  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_LocalPosition: {x: -5.58, y: -1.36, z: 0}
+  m_LocalScale: {x: 0.668951, y: 0.668951, z: 0.668951}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 876930316}
@@ -719,7 +719,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 6b100daff28d04f69a49015f83966425, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -980,7 +980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -1551,15 +1551,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2111097550084714020, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.85858
+      value: 0.8431656
       objectReference: {fileID: 0}
     - target: {fileID: 2111097550084714020, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.85858
+      value: 0.8431656
       objectReference: {fileID: 0}
     - target: {fileID: 2111097550084714020, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.85858
+      value: 0.8431656
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: selectedCommands.Array.size
@@ -1574,6 +1574,10 @@ PrefabInstance:
       value: Scene_3x2
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1999,6 +2003,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
@@ -2233,6 +2241,90 @@ Transform:
   m_Father: {fileID: 1190946431}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &147754040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 147754041}
+  - component: {fileID: 147754042}
+  m_Layer: 0
+  m_Name: CharacterSam (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &147754041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147754040}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.87, y: -0.86, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1449869742}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &147754042
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147754040}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 1
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &158919857
 GameObject:
   m_ObjectHideFlags: 0
@@ -3009,7 +3101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1501953966}
+  selectedFlowchart: {fileID: 1164677365}
 --- !u!4 &226327169
 Transform:
   m_ObjectHideFlags: 1
@@ -3050,7 +3142,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229116770}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.56, y: -0.29, z: 0}
+  m_LocalPosition: {x: 3.33, y: -0.29, z: 0}
   m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3098,7 +3190,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 6b100daff28d04f69a49015f83966425, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3443,6 +3535,90 @@ MonoBehaviour:
   clickEnabled: 1
   hoverCursor: {fileID: 2800000, guid: fae7d48fee150bd4fa095a75fe73cf14, type: 3}
   useEventSystem: 0
+--- !u!1 &257770811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 257770812}
+  - component: {fileID: 257770813}
+  m_Layer: 0
+  m_Name: CharacterSam (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &257770812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257770811}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.1, y: -0.28, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1611247149}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &257770813
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257770811}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &261011358
 GameObject:
   m_ObjectHideFlags: 0
@@ -3757,7 +3933,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284024807}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.46, y: -0.49, z: 0}
+  m_LocalPosition: {x: 0.98, y: -0.49, z: 0}
   m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3954,7 +4130,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -4203,6 +4379,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 301469813}
   m_CullTransparentMesh: 1
+--- !u!1 &312116270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 312116271}
+  - component: {fileID: 312116272}
+  m_Layer: 0
+  m_Name: CharacterSam (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &312116271
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312116270}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.46, y: -0.76, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 599853149}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &312116272
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312116270}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 1
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1001 &315306726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4216,7 +4476,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1166607722, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: commandList.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1166607722, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: commandList.Array.data[0]
@@ -4228,6 +4488,10 @@ PrefabInstance:
       objectReference: {fileID: 780586715}
     - target: {fileID: 1166607722, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 780586717}
+    - target: {fileID: 1166607722, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: commandList.Array.data[3]
       value: 
       objectReference: {fileID: 780586709}
     - target: {fileID: 1539335329789398061, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
@@ -4295,6 +4559,10 @@ PrefabInstance:
       value: 0.85858
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: blockViewHeight
+      value: 295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: selectedCommands.Array.size
       value: 0
       objectReference: {fileID: 0}
@@ -4307,6 +4575,10 @@ PrefabInstance:
       value: Scene_9x4
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -4398,7 +4670,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 322381373}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.24, y: -0.49, z: 0}
+  m_LocalPosition: {x: -1.91, y: -0.9, z: 0}
   m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4514,6 +4786,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
@@ -4527,6 +4803,90 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1826900866800515683, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
   m_PrefabInstance: {fileID: 331962615}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &345280314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 345280315}
+  - component: {fileID: 345280316}
+  m_Layer: 0
+  m_Name: CharacterSam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &345280315
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345280314}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.46, y: -0.49, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1164723244}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &345280316
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345280314}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &359398769
 GameObject:
   m_ObjectHideFlags: 0
@@ -5289,7 +5649,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &407280804
 Transform:
   m_ObjectHideFlags: 0
@@ -5584,6 +5944,90 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3189300812508697345, guid: 98a0408776daf91409797bdc3824d460, type: 3}
   m_PrefabInstance: {fileID: 1781108887}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &479462409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 479462410}
+  - component: {fileID: 479462411}
+  m_Layer: 0
+  m_Name: CharacterSam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &479462410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479462409}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.34, y: -0.01, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 541937575}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &479462411
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479462409}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 1
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &480140715
 GameObject:
   m_ObjectHideFlags: 0
@@ -6550,7 +6994,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1166607722, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: nodeRect.y
-      value: 142.5767
+      value: 141.5767
       objectReference: {fileID: 0}
     - target: {fileID: 1166607722, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: nodeRect.width
@@ -6678,7 +7122,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -7141,7 +7585,7 @@ MonoBehaviour:
   storyText: "Hee hee\r"
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f821127c59fab6845acf1ce2207b5598, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7246,7 +7690,7 @@ MonoBehaviour:
   storyText: "\r{b}{i}{color=yellow}Throws mud\r\r {/color} {/i}  {/b}\n"
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 8300000, guid: 1092d79c24d14b34b99279e5cee34485, type: 3}
   showAlways: 1
   showCount: 1
@@ -7273,7 +7717,7 @@ MonoBehaviour:
   storyText: "Don\u2019t believe you! "
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7327,7 +7771,7 @@ MonoBehaviour:
   storyText: Are you sure?
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7382,7 +7826,7 @@ MonoBehaviour:
     about the island already and help me out a little ok?"
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7640,7 +8084,7 @@ MonoBehaviour:
   storyText: Hee hee!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f821127c59fab6845acf1ce2207b5598, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7742,7 +8186,7 @@ MonoBehaviour:
   storyText: "\r{b}{i}{color=yellow}Throws mud\r\r {/color} {/i}  {/b}\n"
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 8300000, guid: 1092d79c24d14b34b99279e5cee34485, type: 3}
   showAlways: 1
   showCount: 1
@@ -7797,7 +8241,7 @@ MonoBehaviour:
     {/b}\n"
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7825,7 +8269,7 @@ MonoBehaviour:
     to find the booty right? '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7879,7 +8323,7 @@ MonoBehaviour:
   storyText: That it will take you a while to wash your hair if it was dirty right?
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7933,7 +8377,7 @@ MonoBehaviour:
   storyText: "Wouldn\u2019t want to get it messy right?"
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8015,7 +8459,7 @@ MonoBehaviour:
     so long\r."
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8069,7 +8513,7 @@ MonoBehaviour:
   storyText: "Don\u2019t you ever let it hang loose? \r"
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8123,7 +8567,7 @@ MonoBehaviour:
   storyText: You have quite neat hair.
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8232,7 +8676,7 @@ MonoBehaviour:
     right?
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8286,7 +8730,7 @@ MonoBehaviour:
   storyText: "Wouldn\u2019t want to get it messy right?"
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8341,7 +8785,7 @@ MonoBehaviour:
     around here?"
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8395,7 +8839,7 @@ MonoBehaviour:
   storyText: I must say you have a very neat outfit there!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8449,7 +8893,7 @@ MonoBehaviour:
   storyText: "I can\u2019t really say Pete. We are in competition, remember? "
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8503,7 +8947,7 @@ MonoBehaviour:
   storyText: Pete!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8592,7 +9036,7 @@ MonoBehaviour:
   storyText: Oh look! More pretty jungle!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9043,6 +9487,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
@@ -9160,6 +9608,10 @@ PrefabInstance:
       value: Scene_6x5
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -9833,7 +10285,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -10167,7 +10619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -10336,6 +10788,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
@@ -10376,6 +10832,90 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3189300812508697345, guid: 98a0408776daf91409797bdc3824d460, type: 3}
   m_PrefabInstance: {fileID: 1397502742}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &634521328
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 634521329}
+  - component: {fileID: 634521330}
+  m_Layer: 0
+  m_Name: CharacterSam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &634521329
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634521328}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.78, y: -0.91, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1164677364}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &634521330
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634521328}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 1
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &643151785
 GameObject:
   m_ObjectHideFlags: 0
@@ -10926,7 +11466,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &718859275
 Transform:
   m_ObjectHideFlags: 0
@@ -11107,7 +11647,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: blockViewHeight
-      value: 747
+      value: 567
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: variables.Array.size
@@ -11191,7 +11731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -11519,8 +12059,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -324.77374
-    y: 210.4997
-    width: 80.769226
+    y: 208.3019
+    width: 81.50687
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11707,7 +12247,7 @@ MonoBehaviour:
   storyText: Rest in peace Bob.
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 0
   showCount: 1
@@ -11735,7 +12275,7 @@ MonoBehaviour:
     it? Skelton Bob. "
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 0
   showCount: 1
@@ -11762,7 +12302,7 @@ MonoBehaviour:
   storyText: Yeah I hear you. Nothing much being dead and everything.
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 0
   showCount: 1
@@ -11789,7 +12329,7 @@ MonoBehaviour:
   storyText: "Hey there, how\u2019s it going?"
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 0
   showCount: 1
@@ -12057,8 +12597,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I could use this to dig up something.
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 10a2e2a54739f4045a9d5dfd54fb961b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12082,9 +12622,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -84.312584
+    x: -85.41148
     y: 358.37473
-    width: 123.62636
+    width: 125.34251
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12128,8 +12668,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Got some grog!
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: a6e1c45b371866f4b9d69eb6d65a1e2a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12155,7 +12695,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -81.741264
     y: 294.2892
-    width: 115.93405
+    width: 117.12332
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12199,8 +12739,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: A bunch of nice looking bananas!
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 456bbde178d94b741bd97bd111c0918c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12224,9 +12764,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -92.860825
+    x: -91.761925
     y: 235.876
-    width: 135.71426
+    width: 137.67128
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12290,7 +12830,7 @@ MonoBehaviour:
   storyText: "Look! It\u2019s the treasure! I found the treasure!"
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 125744346a8e42e4bbee4d66f6a3336f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12316,7 +12856,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 636.32526
     y: 257.8774
-    width: 98.35164
+    width: 99.315094
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12376,7 +12916,7 @@ MonoBehaviour:
   storyText: "I\u2019ll be back Bob."
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12404,7 +12944,7 @@ MonoBehaviour:
     yet. "
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12432,7 +12972,7 @@ MonoBehaviour:
     meal?
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12616,7 +13156,7 @@ MonoBehaviour:
   storyText: Looks like I can give Skeleton Bob his supper now!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12974,7 +13514,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -325.35114
     y: 273.48462
-    width: 91.75823
+    width: 92.465775
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13780,7 +14320,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 416.53934
     y: 890.5077
-    width: 78.57143
+    width: 80.137
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13849,8 +14389,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: I need something else to make this useful..
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 923596c78a78a484799dc08c4710bf0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14126,8 +14666,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: Oh look I made a fishing rod!
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 5b0b48de102a06147a13e0e49fa7fc5f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14574,8 +15114,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Mighty hook that!
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 923596c78a78a484799dc08c4710bf0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 0
   showCount: 1
@@ -14601,7 +15141,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -73.5589
     y: 762.85547
-    width: 118.13185
+    width: 119.86305
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14670,8 +15210,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: I need something else to make this useful..
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 7b64fc30ab6d52e48ac04d5dc70b093a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -14947,8 +15487,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: Oh look I made a fishing rod!
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 5b0b48de102a06147a13e0e49fa7fc5f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15395,7 +15935,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -73.04955
     y: 691.98065
-    width: 113.73625
+    width: 114.3836
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15449,8 +15989,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: A bunch of wildflowers.
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 106c7d74f640a0e49969eb0dab6c762e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15476,7 +16016,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -82.814674
     y: 625.19995
-    width: 132.41757
+    width: 132.19183
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15520,8 +16060,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I could use this to go fishing...
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 5b0b48de102a06147a13e0e49fa7fc5f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15547,8 +16087,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: A make shift fishiing rod I made from island bits.
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 5b0b48de102a06147a13e0e49fa7fc5f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15574,7 +16114,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -69.78573
     y: 485.80124
-    width: 110.439545
+    width: 111.64387
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15631,10 +16171,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 174
   indentLevel: 1
-  storyText: ' *eats some noises and belches'
+  storyText: '{b}{i}{color=yellow}Nom Nom Nom!{/color} {/i}  {/b}'
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 0
   showCount: 1
@@ -15661,7 +16201,7 @@ MonoBehaviour:
   storyText: Biscuits!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 0
   showCount: 1
@@ -15687,8 +16227,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: 'It''s a box of sea biscuits! '
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 1057f535523525b42b78cc92fae99a2b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15728,8 +16268,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: I have one part of the supper for the pirate!
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 1057f535523525b42b78cc92fae99a2b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -15755,8 +16295,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: Got some biscuits for the pirate.
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 1057f535523525b42b78cc92fae99a2b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 0
   showCount: 1
@@ -16025,7 +16565,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -84.218285
     y: 554.6098
-    width: 132.41757
+    width: 132.19183
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16041,6 +16581,8 @@ MonoBehaviour:
   - {fileID: 731839814}
   - {fileID: 731839813}
   - {fileID: 731839812}
+  - {fileID: 731840040}
+  - {fileID: 731840039}
   - {fileID: 731839811}
   - {fileID: 731839722}
   suppressAllAutoSelections: 0
@@ -16090,8 +16632,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: I need something else to make this useful..
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: b8832f10f1d492e46a8c5cf2fd17c2df, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16367,8 +16909,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: Oh look I made a fishing rod!
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 5b0b48de102a06147a13e0e49fa7fc5f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16815,7 +17357,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -82.58365
     y: 419.1454
-    width: 128.02196
+    width: 129.45209
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17065,7 +17607,7 @@ MonoBehaviour:
     to tie things together."
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17091,8 +17633,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: "Ah vines, a poor man\u2019s rope."
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 7b64fc30ab6d52e48ac04d5dc70b093a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17118,7 +17660,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 198.52568
     y: 693.65625
-    width: 74.17582
+    width: 74.65755
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17178,7 +17720,7 @@ MonoBehaviour:
   storyText: Oo spooky!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 125744346a8e42e4bbee4d66f6a3336f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20012,7 +20554,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -325.19812
     y: 138.9671
-    width: 77.47252
+    width: 77.39728
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20440,7 +20982,7 @@ MonoBehaviour:
   storyText: '{b}{i}{color=yellow}Sneeze {/color} {/i}  {/b}'
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f821127c59fab6845acf1ce2207b5598, type: 3}
   voiceOverClip: {fileID: 8300000, guid: 9c2b080e43b0f38488f145c285eb1be8, type: 3}
   showAlways: 1
   showCount: 1
@@ -20467,7 +21009,7 @@ MonoBehaviour:
   storyText: '{b}{i}{color=yellow}Sniffs {/color} {/i}  {/b}'
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 8300000, guid: 26bbb1d03cfb3ea46952a4f42ce49308, type: 3}
   showAlways: 1
   showCount: 1
@@ -20530,7 +21072,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 580.6055
     y: 683.1228
-    width: 87.362625
+    width: 86.98632
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20576,7 +21118,7 @@ MonoBehaviour:
   storyText: I think I'll stay out here..
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20603,7 +21145,7 @@ MonoBehaviour:
   storyText: 'It looks very dark in there.. '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 125744346a8e42e4bbee4d66f6a3336f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20650,7 +21192,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 442.1441
     y: 686.4194
-    width: 126.92306
+    width: 129.45209
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21088,8 +21630,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: Oh look I made a fishing rod!
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 5b0b48de102a06147a13e0e49fa7fc5f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21116,7 +21658,7 @@ MonoBehaviour:
   storyText: I don't seem to have anything to offer him in exchange for the hook..
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21143,7 +21685,7 @@ MonoBehaviour:
   storyText: Perhaps if I give him this banana...
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21441,7 +21983,7 @@ MonoBehaviour:
   storyText: I am pretty sure that is pirate Bob's hand!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21468,7 +22010,7 @@ MonoBehaviour:
   storyText: The monkey is holding a hook..
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21510,7 +22052,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 355.62384
     y: 779.8496
-    width: 93.95604
+    width: 95.205505
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21718,7 +22260,7 @@ MonoBehaviour:
   storyText: Better grab it quick and head back to the beach!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21745,7 +22287,7 @@ MonoBehaviour:
   storyText: Oh!! The treasure!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 125744346a8e42e4bbee4d66f6a3336f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21771,8 +22313,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: Ah ha! A hook!
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 923596c78a78a484799dc08c4710bf0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21900,7 +22442,7 @@ MonoBehaviour:
   storyText: 'I need to find something to offer him in exchange. '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22508,7 +23050,7 @@ MonoBehaviour:
     to tie things together."
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22534,8 +23076,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: "Ah vines, a poor man\u2019s rope."
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 7b64fc30ab6d52e48ac04d5dc70b093a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22676,8 +23218,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: Oh look I made a fishing rod!
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 5b0b48de102a06147a13e0e49fa7fc5f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23445,7 +23987,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 280.06415
     y: 713.43665
-    width: 80.769226
+    width: 81.50687
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23618,8 +24160,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: Oh look I made a fishing rod!
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 5b0b48de102a06147a13e0e49fa7fc5f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24538,7 +25080,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &731840038
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -24688,6 +25230,60 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &731840039
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731839693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 609
+  indentLevel: 1
+  storyText: Pardon me!
+  description: 
+  character: {fileID: 1395565989}
+  portrait: {fileID: 21300000, guid: f821127c59fab6845acf1ce2207b5598, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &731840040
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731839693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 608
+  indentLevel: 1
+  storyText: '{b}{i}{color=yellow}Belch!{/color} {/i}  {/b}'
+  description: 
+  character: {fileID: 1395565989}
+  portrait: {fileID: 21300000, guid: f821127c59fab6845acf1ce2207b5598, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 0
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &741255575
 GameObject:
   m_ObjectHideFlags: 0
@@ -26698,7 +27294,7 @@ MonoBehaviour:
   storyText: He doesn't look or sound very friendly!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 0
   showCount: 1
@@ -26725,7 +27321,7 @@ MonoBehaviour:
   storyText: 'I say old snake, might you know where the treasure is? '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27164,7 +27760,7 @@ MonoBehaviour:
   storyText: ' {$Bananas}! to be exact'
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27191,7 +27787,7 @@ MonoBehaviour:
   storyText: I have some bananas..
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27327,7 +27923,7 @@ MonoBehaviour:
   storyText: I wonder if he would like a banana...
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27368,7 +27964,7 @@ MonoBehaviour:
   storyText: I should consult my map again.
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27395,7 +27991,7 @@ MonoBehaviour:
   storyText: I guess I'll just have to go around him carefully..
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27422,7 +28018,7 @@ MonoBehaviour:
   storyText: If only I had something I could use to throw at him .. or .. feed him..
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27749,7 +28345,7 @@ MonoBehaviour:
   storyText: Ah! That got rid of him!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27949,7 +28545,7 @@ MonoBehaviour:
   storyText: '{b}{i}{color=yellow}Takes the banana and runs away {/color} {/i}  {/b}'
   description: 
   character: {fileID: 444440806}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6f840aa30586aae4386bcc06f1bfafc8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28145,7 +28741,7 @@ MonoBehaviour:
   storyText: Here's a banana my friend....
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28227,7 +28823,7 @@ MonoBehaviour:
   storyText: Ok do you know the game hide and seek?
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28292,7 +28888,7 @@ MonoBehaviour:
   storyText: Thanks, that was very helpful!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28346,7 +28942,7 @@ MonoBehaviour:
   storyText: Oh boy! A monkey!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 125744346a8e42e4bbee4d66f6a3336f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28693,7 +29289,7 @@ MonoBehaviour:
   storyText: Better get back to treasure hunting!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28720,7 +29316,7 @@ MonoBehaviour:
   storyText: 'This could take all day! '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28747,7 +29343,7 @@ MonoBehaviour:
   storyText: 1...2... wait a minute...
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28947,7 +29543,7 @@ MonoBehaviour:
   storyText: '{b}{i}{color=yellow}Scampers off {/color} {/i}  {/b}'
   description: 
   character: {fileID: 444440806}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6f840aa30586aae4386bcc06f1bfafc8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28974,7 +29570,7 @@ MonoBehaviour:
   storyText: '{b}{i}{color=yellow}Nods {/color} {/i}  {/b}'
   description: 
   character: {fileID: 444440806}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6f840aa30586aae4386bcc06f1bfafc8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29001,7 +29597,7 @@ MonoBehaviour:
   storyText: You go hide and I will come and find you, ok?
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29028,7 +29624,7 @@ MonoBehaviour:
   storyText: Hmm guess not!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29055,7 +29651,7 @@ MonoBehaviour:
   storyText: '{b}{i}{color=yellow}Looks blank {/color} {/i}  {/b}'
   description: 
   character: {fileID: 444440806}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6f840aa30586aae4386bcc06f1bfafc8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29088,7 +29684,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &771932373
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29109,7 +29705,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &771932374
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29250,6 +29846,174 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 2.31, y: 4.83}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &772475003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 772475004}
+  - component: {fileID: 772475005}
+  m_Layer: 0
+  m_Name: CharacterSam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &772475004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772475003}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.29, y: -0.09, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 134286564}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &772475005
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772475003}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 1
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &772958633
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 772958634}
+  - component: {fileID: 772958635}
+  m_Layer: 0
+  m_Name: CharacterSam (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &772958634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772958633}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.68, y: -0.76, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 599853149}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &772958635
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772958633}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -29410,7 +30174,7 @@ MonoBehaviour:
   storyText: Hissssssssssssss
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29437,7 +30201,34 @@ MonoBehaviour:
   storyText: What did the snake say to the pirate?
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &780586717
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780586708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 9
+  indentLevel: 0
+  storyText: Hahahahaha!
+  description: 
+  character: {fileID: 1395565989}
+  portrait: {fileID: 21300000, guid: f821127c59fab6845acf1ce2207b5598, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29887,7 +30678,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &817893828
 Transform:
   m_ObjectHideFlags: 0
@@ -30786,7 +31577,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: blockViewHeight
-      value: 661
+      value: 659
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: variables.Array.size
@@ -30826,11 +31617,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8175554987879768266, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -30965,7 +31756,7 @@ MonoBehaviour:
   storyText: He doesn't look or sound very friendly!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 0
   showCount: 1
@@ -30992,7 +31783,7 @@ MonoBehaviour:
   storyText: Green is the new green you know?
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -31428,8 +32219,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: ' {$Bananas}! to be exact'
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 456bbde178d94b741bd97bd111c0918c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -31455,8 +32246,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I have some bananas..
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 456bbde178d94b741bd97bd111c0918c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -31592,7 +32383,7 @@ MonoBehaviour:
   storyText: I wonder if he would like a banana...
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -31633,7 +32424,7 @@ MonoBehaviour:
   storyText: I should consult my map again.
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -31660,7 +32451,7 @@ MonoBehaviour:
   storyText: I guess I'll just have to go around him carefully..
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -31687,7 +32478,7 @@ MonoBehaviour:
   storyText: If only I had something I could use to throw at him .. or .. feed him..
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -32014,7 +32805,7 @@ MonoBehaviour:
   storyText: Ah! That got rid of him!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -32215,7 +33006,7 @@ MonoBehaviour:
     {/b}"
   description: 
   character: {fileID: 444440806}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6f840aa30586aae4386bcc06f1bfafc8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -32411,7 +33202,7 @@ MonoBehaviour:
   storyText: Here's a banana my friend....
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -32493,7 +33284,7 @@ MonoBehaviour:
   storyText: Hey, he's good at this!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -32597,7 +33388,7 @@ MonoBehaviour:
   storyText: Oh boy! A monkey!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 125744346a8e42e4bbee4d66f6a3336f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -33075,7 +33866,7 @@ MonoBehaviour:
   storyText: "{b}{i}{color=yellow}Runs away\r {/color} {/i}  {/b}"
   description: 
   character: {fileID: 444440806}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6f840aa30586aae4386bcc06f1bfafc8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -33102,7 +33893,7 @@ MonoBehaviour:
   storyText: '{b}{i}{color=yellow}Smiles{/color} {/i}  {/b}'
   description: 
   character: {fileID: 444440806}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6f840aa30586aae4386bcc06f1bfafc8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -33129,7 +33920,7 @@ MonoBehaviour:
   storyText: Oga booga ooga!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 125744346a8e42e4bbee4d66f6a3336f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -33156,7 +33947,7 @@ MonoBehaviour:
   storyText: '{b}{i}{color=yellow}Pulls faces back{/color} {/i}  {/b}'
   description: 
   character: {fileID: 444440806}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6f840aa30586aae4386bcc06f1bfafc8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -33183,7 +33974,7 @@ MonoBehaviour:
   storyText: '{b}{i}{color=yellow}Pulls faces {/color} {/i}  {/b}'
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 125744346a8e42e4bbee4d66f6a3336f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -33256,6 +34047,90 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!1 &851677941
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 851677942}
+  - component: {fileID: 851677943}
+  m_Layer: 0
+  m_Name: CharacterSam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &851677942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851677941}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.85, y: -0.91, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 547848944}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &851677943
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851677941}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 1
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!4 &860606123 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3189300812508697345, guid: 98a0408776daf91409797bdc3824d460, type: 3}
@@ -34505,7 +35380,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &939561288
 Transform:
   m_ObjectHideFlags: 0
@@ -34589,7 +35464,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &945056690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34650,6 +35525,90 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &955275500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 955275501}
+  - component: {fileID: 955275502}
+  m_Layer: 0
+  m_Name: CharacterSam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &955275501
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955275500}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.95, y: -0.91, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 626305794}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &955275502
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955275500}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!4 &955575959 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3189300812508697345, guid: 98a0408776daf91409797bdc3824d460, type: 3}
@@ -34816,7 +35775,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989180203}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.46, y: -0.49, z: 0}
+  m_LocalPosition: {x: -2.11, y: -0.49, z: 0}
   m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -34866,7 +35825,7 @@ SpriteRenderer:
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -36566,6 +37525,90 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3189300812508697345, guid: 98a0408776daf91409797bdc3824d460, type: 3}
   m_PrefabInstance: {fileID: 1120138997}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1070832673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1070832674}
+  - component: {fileID: 1070832675}
+  m_Layer: 0
+  m_Name: CharacterSam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1070832674
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070832673}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.55, y: -0.91, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 331962616}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1070832675
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070832673}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1073904167
 GameObject:
   m_ObjectHideFlags: 0
@@ -36726,11 +37769,179 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1081094177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1081094178}
+  - component: {fileID: 1081094179}
+  m_Layer: 0
+  m_Name: CharacterSam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1081094178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081094177}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.2, y: -0.49, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 80824704}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1081094179
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081094177}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!4 &1090133853 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3189300812508697345, guid: 98a0408776daf91409797bdc3824d460, type: 3}
   m_PrefabInstance: {fileID: 1950595019}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1092225658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1092225659}
+  - component: {fileID: 1092225660}
+  m_Layer: 0
+  m_Name: CharacterSam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1092225659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092225658}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.95, y: 0, z: 0}
+  m_LocalScale: {x: 0.22844623, y: 0.22844623, z: 0.22844623}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1650149012}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1092225660
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092225658}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!4 &1098291240 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3189300812508697345, guid: 98a0408776daf91409797bdc3824d460, type: 3}
@@ -37122,6 +38333,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1139590564}
   m_CullTransparentMesh: 1
+--- !u!1 &1143625982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1143625983}
+  - component: {fileID: 1143625984}
+  m_Layer: 0
+  m_Name: CharacterSam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1143625983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143625982}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.76, y: -0.91, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2038191609}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1143625984
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143625982}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 1
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!4 &1146240390 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3189300812508697345, guid: 98a0408776daf91409797bdc3824d460, type: 3}
@@ -37325,6 +38620,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
@@ -37338,6 +38637,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1826900866800515683, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
   m_PrefabInstance: {fileID: 1164677363}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1164677365 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+  m_PrefabInstance: {fileID: 1164677363}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409964916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1164723243
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37423,11 +38733,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2111097550084714020, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8625
+      value: 0.847251
       objectReference: {fileID: 0}
     - target: {fileID: 2111097550084714020, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.85
+      value: 0.834972
+      objectReference: {fileID: 0}
+    - target: {fileID: 2111097550084714020, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.98232
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: selectedBlocks.Array.size
@@ -37446,6 +38760,10 @@ PrefabInstance:
       value: Scene_3x4
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -37577,7 +38895,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -37698,6 +39016,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1179416619}
   m_CullTransparentMesh: 1
+--- !u!1 &1179569671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1179569672}
+  - component: {fileID: 1179569673}
+  m_Layer: 0
+  m_Name: CharacterSam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1179569672
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179569671}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.92, y: -0.91, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 315306727}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1179569673
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179569671}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 1
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1001 &1182083060
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37811,6 +39213,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
@@ -37852,7 +39258,7 @@ MonoBehaviour:
   storyText: I think I am beginning to get jungle vision..
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -38440,7 +39846,7 @@ MonoBehaviour:
   storyText: ..jungle!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -38467,7 +39873,7 @@ MonoBehaviour:
   storyText: The sweet sound of..
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -38494,7 +39900,7 @@ MonoBehaviour:
   storyText: 'Can you hear that? '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -39433,15 +40839,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2111097550084714020, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.85858
+      value: 0.8434003
       objectReference: {fileID: 0}
     - target: {fileID: 2111097550084714020, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.85858
+      value: 0.8434003
       objectReference: {fileID: 0}
     - target: {fileID: 2111097550084714020, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.85858
+      value: 0.8434003
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: selectedBlocks.Array.size
@@ -39460,6 +40866,10 @@ PrefabInstance:
       value: Scene_3x1
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -39668,6 +41078,90 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98a0408776daf91409797bdc3824d460, type: 3}
+--- !u!1 &1302690334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1302690335}
+  - component: {fileID: 1302690336}
+  m_Layer: 0
+  m_Name: CharacterSam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1302690335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302690334}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.46, y: -0.49, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 851236409}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1302690336
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302690334}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1302943304
 GameObject:
   m_ObjectHideFlags: 0
@@ -39904,6 +41398,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1304895490}
   m_CullTransparentMesh: 1
+--- !u!1 &1312659000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1312659001}
+  - component: {fileID: 1312659002}
+  m_Layer: 0
+  m_Name: CharacterSam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1312659001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312659000}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.46, y: -0.49, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1765493411}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1312659002
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312659000}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1315658692
 GameObject:
   m_ObjectHideFlags: 0
@@ -40095,7 +41673,7 @@ MonoBehaviour:
   storyText: Me too Hiss, me too.
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -40122,7 +41700,7 @@ MonoBehaviour:
   storyText: How's things?
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -40176,7 +41754,7 @@ MonoBehaviour:
   storyText: 'Hello, what''s your name then? '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -40230,7 +41808,7 @@ MonoBehaviour:
   storyText: "{b}{i}{color=yellow}Pets snake\r {/color} {/i}  {/b}\n"
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -40257,7 +41835,7 @@ MonoBehaviour:
   storyText: Hello there 'Hissss'
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -40768,6 +42346,90 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98a0408776daf91409797bdc3824d460, type: 3}
+--- !u!1 &1382668973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1382668974}
+  - component: {fileID: 1382668975}
+  m_Layer: 0
+  m_Name: CharacterSam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1382668974
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382668973}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.46, y: -0.49, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1849959000}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1382668975
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382668973}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1383061383
 GameObject:
   m_ObjectHideFlags: 0
@@ -40888,7 +42550,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1383061383}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.34, y: -1.91, z: -5.1994514}
+  m_LocalPosition: {x: -1.52, y: -0.25, z: -5.1994514}
   m_LocalScale: {x: 1.1141912, y: 1.1141912, z: 1.1141912}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -41351,7 +43013,7 @@ MonoBehaviour:
   storyText: Ooo more jungle!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -41527,7 +43189,7 @@ MonoBehaviour:
   storyText: What brought you to try out for the Raven crew?
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -41670,7 +43332,7 @@ MonoBehaviour:
   storyText: Ahoy Pete, any luck yet?
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -42076,7 +43738,7 @@ MonoBehaviour:
   storyText: Jungle, jungle everywhere!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -42423,7 +44085,7 @@ MonoBehaviour:
   storyText: I will bare that in mind!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -42532,7 +44194,7 @@ MonoBehaviour:
   storyText: Aye!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -42587,7 +44249,7 @@ MonoBehaviour:
   storyText: Why the name Pistol Pete?
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -43078,7 +44740,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -43714,7 +45376,7 @@ MonoBehaviour:
   storyText: No, you didn't frighten me at all!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -43843,7 +45505,7 @@ MonoBehaviour:
   storyText: Yes! Very scary!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 125744346a8e42e4bbee4d66f6a3336f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -43924,7 +45586,7 @@ MonoBehaviour:
   storyText: Wow!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -44223,7 +45885,7 @@ MonoBehaviour:
   storyText: What is the story behind the name Fearsome Frank?
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -44521,7 +46183,7 @@ MonoBehaviour:
   storyText: Hey Frank, nice to see you again!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -44583,7 +46245,7 @@ MonoBehaviour:
   storyText: Jungle, jungle, everywhere!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -44974,7 +46636,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: blockViewHeight
-      value: 713
+      value: 473
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: variables.Array.size
@@ -45026,11 +46688,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7796156596801666396, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: nodeRect.width
@@ -45120,7 +46782,7 @@ MonoBehaviour:
   storyText: I wonder if he would like a banana...
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -45210,7 +46872,7 @@ MonoBehaviour:
   storyText: Ouch!!!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -45236,7 +46898,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -81.20128
     y: 346.6142
-    width: 70.21277
+    width: 69.51219
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -45265,7 +46927,7 @@ MonoBehaviour:
   storyText: Ah! That got rid of him!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -45466,7 +47128,7 @@ MonoBehaviour:
     {/b}"
   description: 
   character: {fileID: 444440806}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6f840aa30586aae4386bcc06f1bfafc8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -45645,7 +47307,7 @@ MonoBehaviour:
   storyText: Here's a banana my friend....
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -45671,7 +47333,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -96.71179
     y: 274.27106
-    width: 124.46808
+    width: 121.9512
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -45775,7 +47437,7 @@ MonoBehaviour:
   storyText: If only I had something I could use to throw at him .. or .. feed him..
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -46069,7 +47731,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -317.79218
     y: 340.81998
-    width: 91.489365
+    width: 91.46341
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -46121,8 +47783,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: ' {$Bananas}! to be exact'
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 456bbde178d94b741bd97bd111c0918c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -46148,8 +47810,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I have some bananas..
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 456bbde178d94b741bd97bd111c0918c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -46175,7 +47837,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -347.44183
     y: 222.39294
-    width: 138.29787
+    width: 135.36584
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -46240,7 +47902,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -305.79446
     y: 136.60101
-    width: 105.319145
+    width: 103.65852
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -46319,7 +47981,7 @@ MonoBehaviour:
   storyText: He doesn't look or sound very friendly!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 0
   showCount: 1
@@ -46346,7 +48008,7 @@ MonoBehaviour:
   storyText: Oh boy! A monkey!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 125744346a8e42e4bbee4d66f6a3336f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -46735,7 +48397,7 @@ MonoBehaviour:
   storyText: I should consult my map again.
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -46762,7 +48424,7 @@ MonoBehaviour:
   storyText: I guess I'll just have to go around him carefully..
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -47094,7 +48756,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1460789202
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -47109,7 +48771,7 @@ MonoBehaviour:
   storyText: 'I count, one, two, tree trees! '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -47121,7 +48783,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1460789203
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -47142,7 +48804,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1460789204
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -47494,7 +49156,7 @@ MonoBehaviour:
   storyText: 'Here treasure, treasure, treasure! '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -47893,7 +49555,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 559.3666
     y: 197.76247
-    width: 117.04545
+    width: 119.09088
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -48007,7 +49669,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 553.3098
     y: 502.13635
-    width: 128.40909
+    width: 131.81815
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -48144,7 +49806,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 566.081
     y: 449.0531
-    width: 106.81818
+    width: 108.18179
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -48217,7 +49879,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 566.92145
     y: 380.66248
-    width: 111.36363
+    width: 113.63634
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -49776,7 +51438,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 545.77216
     y: 616.9472
-    width: 119.31818
+    width: 122.72724
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -51351,7 +53013,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 561.10834
     y: 560.7813
-    width: 114.77272
+    width: 117.2727
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -52926,7 +54588,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 558.8102
     y: 325.39038
-    width: 115.90908
+    width: 117.2727
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -53014,7 +54676,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 543.8247
     y: 136.8944
-    width: 137.5
+    width: 140.90906
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -53123,7 +54785,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 308.7895
     y: 380.52188
-    width: 78.40909
+    width: 79.0909
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -53269,7 +54931,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 320.88647
     y: 512.7597
-    width: 65.90909
+    width: 66.36363
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -53383,7 +55045,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 318.25708
     y: 567.55176
-    width: 70.454544
+    width: 69.99999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -53752,7 +55414,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 222.09398
     y: 514.57275
-    width: 75
+    width: 75.45454
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -53992,7 +55654,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 317.47003
     y: 447.8595
-    width: 69.31818
+    width: 68.18181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -54586,7 +56248,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 113.96301
     y: 380.26288
-    width: 85.227264
+    width: 82.72726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -54992,7 +56654,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 559.44135
     y: 261.07693
-    width: 128.40909
+    width: 131.81815
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -55754,7 +57416,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 114.85251
     y: 209.81175
-    width: 88.63636
+    width: 89.999985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -57001,7 +58663,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 114.53441
     y: 298.35147
-    width: 80.681816
+    width: 80.90907
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -59831,7 +61493,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 32.61473
     y: 135.11699
-    width: 78.40909
+    width: 75.45454
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -62924,17 +64586,6 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &1501953966 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
-  m_PrefabInstance: {fileID: 1501953633}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501953635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1503723851
 GameObject:
   m_ObjectHideFlags: 0
@@ -63353,7 +65004,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: blockViewHeight
-      value: 564
+      value: 733
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: variables.Array.size
@@ -63441,7 +65092,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -63708,7 +65359,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 186.52457
     y: 335.84735
-    width: 90
+    width: 89.99999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -63936,8 +65587,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: Ah, looks like I can use this as a base for something..
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: b8832f10f1d492e46a8c5cf2fd17c2df, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -64430,8 +66081,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I could use this to dig up something...
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 10a2e2a54739f4045a9d5dfd54fb961b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -64457,7 +66108,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -129.39977
     y: 363.8553
-    width: 126
+    width: 126.47057
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -64501,8 +66152,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I have one barrel of grog!
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: a6e1c45b371866f4b9d69eb6d65a1e2a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -64528,7 +66179,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -122.62636
     y: 298.98474
-    width: 117
+    width: 117.058815
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -64572,8 +66223,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: I have some bananas!
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 456bbde178d94b741bd97bd111c0918c, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -64599,7 +66250,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -134.02295
     y: 243.7215
-    width: 139
+    width: 139.41174
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -64673,7 +66324,7 @@ MonoBehaviour:
     rod.
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -65150,7 +66801,7 @@ MonoBehaviour:
     rod.
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -65611,8 +67262,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: I need something else to make this useful..
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 923596c78a78a484799dc08c4710bf0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -65888,8 +67539,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: Oh look I made a fishing rod!
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 923596c78a78a484799dc08c4710bf0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -66334,9 +67985,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -122.67306
+    x: -123.849525
     y: 690.0674
-    width: 120
+    width: 120.58823
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -66427,7 +68078,7 @@ MonoBehaviour:
   storyText: I need something else to act as a hook piece to make the fishing rod.
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -66904,7 +68555,7 @@ MonoBehaviour:
     rod.
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -67365,8 +69016,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: I need something else to make this useful..
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 7b64fc30ab6d52e48ac04d5dc70b093a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -67642,8 +69293,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: Oh look I made a fishing rod!
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 5b0b48de102a06147a13e0e49fa7fc5f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -68090,7 +69741,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -116.596
     y: 751.7516
-    width: 115
+    width: 115.88234
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -68152,8 +69803,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: A bunch of wildflowers.
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 106c7d74f640a0e49969eb0dab6c762e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -68179,7 +69830,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -130.07338
     y: 626.2471
-    width: 134
+    width: 134.70587
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -68223,8 +69874,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: A make shift fishiing rod I made from island bits.
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 5b0b48de102a06147a13e0e49fa7fc5f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -68250,7 +69901,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -122.08977
     y: 488.11383
-    width: 112
+    width: 112.352936
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -68481,8 +70132,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: Oo flowers, they might help mask the smell if Frank comes around again...
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 106c7d74f640a0e49969eb0dab6c762e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -68522,8 +70173,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: I think I have enough flowers!
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 106c7d74f640a0e49969eb0dab6c762e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -68792,7 +70443,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 176.1607
     y: 615.17285
-    width: 94
+    width: 94.70587
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -68858,7 +70509,7 @@ MonoBehaviour:
   storyText: ' *eats some noises and belches'
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f821127c59fab6845acf1ce2207b5598, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -68884,8 +70535,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: Biscuits!
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 1057f535523525b42b78cc92fae99a2b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -68925,8 +70576,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: I have one part of the supper for the pirate!
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 1057f535523525b42b78cc92fae99a2b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -69195,7 +70846,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -133.48656
     y: 555.5304
-    width: 134
+    width: 134.70587
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -69245,7 +70896,7 @@ MonoBehaviour:
   storyText: Looks like I need a fishing rod of sorts..
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -69272,7 +70923,7 @@ MonoBehaviour:
   storyText: Maybe if I had a fishing rod of sorts..
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 0
   showCount: 1
@@ -69300,7 +70951,7 @@ MonoBehaviour:
     another way.."
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 0
   showCount: 1
@@ -69326,8 +70977,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: 'Looks like boxes sea biscuits! '
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 1057f535523525b42b78cc92fae99a2b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 0
   showCount: 1
@@ -69561,8 +71212,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: ' Ah some biscuits!'
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 1057f535523525b42b78cc92fae99a2b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -69588,8 +71239,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: Ah, the handy custom made fishing rod will do here!
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 5b0b48de102a06147a13e0e49fa7fc5f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -69858,7 +71509,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 176.39749
     y: 552.9621
-    width: 94
+    width: 94.70587
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -69945,7 +71596,7 @@ MonoBehaviour:
   storyText: I need something else to act as a hook for the fishing rod.
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -70422,7 +72073,7 @@ MonoBehaviour:
     rod.
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -70883,8 +72534,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: I need something else to make this useful..
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: b8832f10f1d492e46a8c5cf2fd17c2df, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -71160,8 +72811,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: Oh look I made a fishing rod!
   description: 
-  character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 5b0b48de102a06147a13e0e49fa7fc5f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -71608,7 +73259,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -123.96862
     y: 423.12024
-    width: 116
+    width: 115.88234
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -71670,7 +73321,7 @@ MonoBehaviour:
   storyText: Oh this is a pretty sight!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -74670,7 +76321,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -103.10296
     y: 156.79504
-    width: 77
+    width: 75.88235
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -75088,6 +76739,90 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1548756528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1548756529}
+  - component: {fileID: 1548756530}
+  m_Layer: 0
+  m_Name: CharacterSam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1548756529
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548756528}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.47, y: -0.49, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1271436585}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1548756530
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548756528}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1550875654
 GameObject:
   m_ObjectHideFlags: 0
@@ -75422,6 +77157,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
@@ -75464,7 +77203,7 @@ MonoBehaviour:
     trousers..
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -75474,6 +77213,90 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!1 &1575069268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1575069269}
+  - component: {fileID: 1575069270}
+  m_Layer: 0
+  m_Name: CharacterSam (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1575069269
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575069268}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9366221, w: -0.35034138}
+  m_LocalPosition: {x: -1.64, y: -3.53, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2037412823}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 221.016}
+--- !u!212 &1575069270
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575069268}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1576628225
 GameObject:
   m_ObjectHideFlags: 0
@@ -75962,7 +77785,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: blockViewHeight
-      value: 664
+      value: 517
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: variables.Array.size
@@ -75994,7 +77817,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -76159,7 +77982,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 221.09827
-    y: 111.85469
+    y: 110.85469
     width: 83
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -76511,7 +78334,7 @@ MonoBehaviour:
   storyText: Sorry! I defiantly got it that time!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -76562,13 +78385,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: '{b}{i}{color=yellow}Puts parchment back and smacks the front of Petes
+  storyText: '{b}{i}{color=yellow}Puts parchment back and smacks the front of Pete''s
     shirt{/color} {/i}  {/b}
 
 '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 8300000, guid: c4bcd7d23d9684d42a476a8a80d0590f, type: 3}
   showAlways: 1
   showCount: 1
@@ -76595,7 +78418,7 @@ MonoBehaviour:
   storyText: Pete! Another bug on your shirt! Allow me!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 125744346a8e42e4bbee4d66f6a3336f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -76649,7 +78472,7 @@ MonoBehaviour:
   storyText: Looks like a poem is written on it but no treasure location, darn it!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -76677,7 +78500,7 @@ MonoBehaviour:
     {/i}  {/b}\n"
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -76733,7 +78556,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -76760,7 +78583,7 @@ MonoBehaviour:
   storyText: 'Oh look is that the treasure over there? '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 125744346a8e42e4bbee4d66f6a3336f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -76814,7 +78637,7 @@ MonoBehaviour:
   storyText: "Got it!\r"
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -76838,13 +78661,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 21
   indentLevel: 0
-  storyText: '{b}{i}{color=yellow}Steals parchment and smacks the front of Petes
+  storyText: '{b}{i}{color=yellow}Steals parchment and smacks the front of Pete''s
     shirt{/color} {/i}  {/b}
 
 '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 8300000, guid: c4bcd7d23d9684d42a476a8a80d0590f, type: 3}
   showAlways: 1
   showCount: 1
@@ -76871,7 +78694,7 @@ MonoBehaviour:
   storyText: "Please! Allow me! \r\n"
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -76929,7 +78752,7 @@ MonoBehaviour:
   storyText: Oh look! You have a bug on your shirt, let me get that for you!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 125744346a8e42e4bbee4d66f6a3336f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -77034,7 +78857,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -77063,7 +78886,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -77144,7 +78967,7 @@ MonoBehaviour:
   storyText: "Pistol Pete, how\u2019s things!"
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -77206,7 +79029,7 @@ MonoBehaviour:
   storyText: My my this jungle does seem to go on for a long while!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -77742,6 +79565,90 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 2
   m_TargetDisplay: 0
+--- !u!1 &1623717103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1623717104}
+  - component: {fileID: 1623717105}
+  m_Layer: 0
+  m_Name: CharacterSam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1623717104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623717103}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.83, y: -0.49, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1182083061}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1623717105
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623717103}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1627379154
 GameObject:
   m_ObjectHideFlags: 0
@@ -78245,6 +80152,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
@@ -78286,7 +80197,7 @@ MonoBehaviour:
   storyText: ..more jungle!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -78313,7 +80224,7 @@ MonoBehaviour:
   storyText: '.. '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -78340,7 +80251,7 @@ MonoBehaviour:
   storyText: I can see..
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -78477,6 +80388,90 @@ MonoBehaviour:
   clickEnabled: 1
   hoverCursor: {fileID: 2800000, guid: fae7d48fee150bd4fa095a75fe73cf14, type: 3}
   useEventSystem: 0
+--- !u!1 &1656771071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1656771072}
+  - component: {fileID: 1656771073}
+  m_Layer: 0
+  m_Name: CharacterSam (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1656771072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656771071}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.47, y: -0.49, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 541193229}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1656771073
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656771071}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1666446046
 GameObject:
   m_ObjectHideFlags: 0
@@ -79264,7 +81259,7 @@ MonoBehaviour:
   storyText: 'That snake looks familiar.. '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -79620,6 +81615,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
@@ -79661,7 +81660,7 @@ MonoBehaviour:
   storyText: Should I get a pet snake? I feel like I need a pet..
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -79780,7 +81779,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1777747001}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.34, y: -1.91, z: -5.1994514}
+  m_LocalPosition: {x: -1.59, y: -0.46, z: -5.1994514}
   m_LocalScale: {x: 1.1141912, y: 1.1141912, z: 1.1141912}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -80820,7 +82819,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -94263,6 +96262,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1819996641}
   m_CullTransparentMesh: 1
+--- !u!1 &1821220831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1821220832}
+  - component: {fileID: 1821220833}
+  m_Layer: 0
+  m_Name: CharacterSam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1821220832
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821220831}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.46, y: -0.49, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1460789070}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1821220833
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821220831}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1001 &1833465101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -94534,6 +96617,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
@@ -94575,7 +96662,7 @@ MonoBehaviour:
   storyText: 'Did that snake just wink at me? '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f821127c59fab6845acf1ce2207b5598, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -94618,7 +96705,7 @@ MonoBehaviour:
   storyText: 'Am I? '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -94645,7 +96732,7 @@ MonoBehaviour:
   storyText: I'd like to think I am not lost, so therefore.. I am not?
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -94832,6 +96919,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862271788}
   m_CullTransparentMesh: 1
+--- !u!1 &1863039428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1863039429}
+  - component: {fileID: 1863039430}
+  m_Layer: 0
+  m_Name: CharacterSam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1863039429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863039428}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.46, y: -0.49, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1570311453}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1863039430
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863039428}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1864306425
 GameObject:
   m_ObjectHideFlags: 0
@@ -94960,7 +97131,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1867889463}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.24, y: -0.49, z: 0}
+  m_LocalPosition: {x: -2.08, y: -0.86, z: 0}
   m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -95298,7 +97469,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1905463977}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.34, y: -1.91, z: -5.1994514}
+  m_LocalPosition: {x: -1.98, y: -0.58, z: -5.1994514}
   m_LocalScale: {x: 1.1141912, y: 1.1141912, z: 1.1141912}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -95388,6 +97559,90 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 6f840aa30586aae4386bcc06f1bfafc8, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &1913086524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1913086525}
+  - component: {fileID: 1913086526}
+  m_Layer: 0
+  m_Name: CharacterSam (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1913086525
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913086524}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.46, y: -0.49, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 288704425}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1913086526
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913086524}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -95820,7 +98075,7 @@ MonoBehaviour:
   storyText: I am beginning to think this jungle is growing on me..
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -96689,8 +98944,8 @@ MonoBehaviour:
   indentLevel: 1
   storyText: Oh look I made a fishing rod!
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1633697109}
+  portrait: {fileID: 21300000, guid: 5b0b48de102a06147a13e0e49fa7fc5f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -97812,9 +100067,12 @@ MonoBehaviour:
   - {fileID: 1988792284}
   - {fileID: 1988792283}
   - {fileID: 1988792282}
+  - {fileID: 1988792348}
+  - {fileID: 1988792280}
+  - {fileID: 1988792346}
   - {fileID: 1988792344}
   - {fileID: 1988792281}
-  - {fileID: 1988792280}
+  - {fileID: 1988792347}
   - {fileID: 1988792279}
   - {fileID: 1988792343}
   - {fileID: 1988792277}
@@ -98011,7 +100269,7 @@ MonoBehaviour:
   storyText: Goodnight Frank!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -98058,7 +100316,7 @@ MonoBehaviour:
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1359215350}
+    gameObjectVal: {fileID: 312116270}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -98151,7 +100409,7 @@ MonoBehaviour:
   storyText: "No it\u2019s not!"
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -98205,7 +100463,7 @@ MonoBehaviour:
   storyText: "Hissssss\r"
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -98259,7 +100517,7 @@ MonoBehaviour:
   storyText: "Hissssss\r"
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -98596,7 +100854,7 @@ MonoBehaviour:
   storyText: Chuckles
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f821127c59fab6845acf1ce2207b5598, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -98704,7 +100962,7 @@ MonoBehaviour:
   storyText: "Yes, in fact I can hear one now can\u2019t you? "
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -98759,7 +101017,7 @@ MonoBehaviour:
     of an eye!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -98813,7 +101071,7 @@ MonoBehaviour:
   storyText: "I\u2019ve heard there are many unknown and dangerous things in jungles.. "
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -99148,7 +101406,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Good idea! Right! I\u2019m off to find a hiding place!"
   description: 
-  character: {fileID: 1395565989}
+  character: {fileID: 1920869795}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -99176,7 +101434,7 @@ MonoBehaviour:
   storyText: Or you could hide till the threat goes away?
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -99508,7 +101766,7 @@ MonoBehaviour:
   storyText: Trust me, anyone can run when they really need to!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -99562,7 +101820,7 @@ MonoBehaviour:
   storyText: Just .. try and run faster!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -99616,7 +101874,7 @@ MonoBehaviour:
   storyText: "Just don\u2019t pet anything with a tail you know? "
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -99671,7 +101929,7 @@ MonoBehaviour:
     don\u2019t annoy it."
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -99752,7 +102010,7 @@ MonoBehaviour:
   storyText: What things?
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -99865,7 +102123,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -99919,7 +102177,7 @@ MonoBehaviour:
   storyText: "Well if it isn\u2019t Frank, hey Frank!"
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -99981,7 +102239,7 @@ MonoBehaviour:
   storyText: Just a whole lot more jungle!
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -100293,7 +102551,7 @@ MonoBehaviour:
   storyText: 'Ah Frank! You''ve gone and knocked yourself out! '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -100348,6 +102606,75 @@ MonoBehaviour:
   description: 
   character: {fileID: 1920869795}
   portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1988792346
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988792261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 86
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 772958633}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &1988792347
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988792261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 85
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1359215350}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &1988792348
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988792261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 84
+  indentLevel: 0
+  storyText: '{b}{i}{color=yellow}Dodges {/color} {/i}  {/b}'
+  description: 
+  character: {fileID: 1395565989}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -100594,7 +102921,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1166607722, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: commandList.Array.size
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1166607722, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: commandList.Array.data[0]
@@ -100611,9 +102938,21 @@ PrefabInstance:
     - target: {fileID: 1166607722, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: commandList.Array.data[3]
       value: 
-      objectReference: {fileID: 2037412833}
+      objectReference: {fileID: 2037412837}
     - target: {fileID: 1166607722, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: commandList.Array.data[4]
+      value: 
+      objectReference: {fileID: 2037412836}
+    - target: {fileID: 1166607722, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: commandList.Array.data[5]
+      value: 
+      objectReference: {fileID: 2037412835}
+    - target: {fileID: 1166607722, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: commandList.Array.data[6]
+      value: 
+      objectReference: {fileID: 2037412833}
+    - target: {fileID: 1166607722, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: commandList.Array.data[7]
       value: 
       objectReference: {fileID: 2037412825}
     - target: {fileID: 1539335329789398061, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
@@ -100698,6 +103037,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
@@ -100744,7 +103087,7 @@ MonoBehaviour:
   storyText: 'I reckon I could swing off those vines.. '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -100771,7 +103114,7 @@ MonoBehaviour:
   storyText: '{b}{i}{color=yellow}Grabs vine {/color} {/i}  {/b}'
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -100798,7 +103141,7 @@ MonoBehaviour:
   storyText: 'Ouch! '
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -100825,6 +103168,65 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: deed5fe60a8ad124298782a898c5851a, type: 3}
   volume: 1
   waitUntilFinished: 0
+--- !u!114 &2037412835
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037412824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 14
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 1575069268}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &2037412836
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037412824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 13
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 2121276253}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
+--- !u!114 &2037412837
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037412824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 616cd37e21c7645c58a89edf5abee56f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 12
+  indentLevel: 0
+  duration: 0.5
+  amount: {x: 1, y: 1}
+  waitUntilFinished: 0
 --- !u!1001 &2038191608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -100838,7 +103240,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1166607722, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: commandList.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1166607722, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: commandList.Array.data[0]
@@ -100850,6 +103252,14 @@ PrefabInstance:
       objectReference: {fileID: 2062011835}
     - target: {fileID: 1166607722, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: commandList.Array.data[2]
+      value: 
+      objectReference: {fileID: 2062011838}
+    - target: {fileID: 1166607722, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: commandList.Array.data[3]
+      value: 
+      objectReference: {fileID: 2062011837}
+    - target: {fileID: 1166607722, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: commandList.Array.data[4]
       value: 
       objectReference: {fileID: 2062011829}
     - target: {fileID: 1539335329789398061, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
@@ -100933,6 +103343,10 @@ PrefabInstance:
       value: Scene_8x6
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -101474,7 +103888,7 @@ MonoBehaviour:
   storyText: Just  getting to hang out all day..
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -101501,7 +103915,61 @@ MonoBehaviour:
   storyText: It must be nice being a snake..
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2062011837
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062011828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 10
+  indentLevel: 0
+  storyText: Cool!
+  description: 
+  character: {fileID: 1395565989}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2062011838
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062011828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 9
+  indentLevel: 0
+  storyText: .. and scare the bejesus out of people!
+  description: 
+  character: {fileID: 1395565989}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -101786,7 +104254,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092791989}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.24, y: -0.49, z: 0}
+  m_LocalPosition: {x: -1.91, y: -0.9, z: 0}
   m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -102065,6 +104533,90 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3189300812508697345, guid: 98a0408776daf91409797bdc3824d460, type: 3}
   m_PrefabInstance: {fileID: 2142434500}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2121276253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2121276254}
+  - component: {fileID: 2121276255}
+  m_Layer: 0
+  m_Name: CharacterSam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2121276254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121276253}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.66, y: -0.49, z: 0}
+  m_LocalScale: {x: 0.46967, y: 0.46967, z: 0.46967}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2037412823}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2121276255
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121276253}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c3c246f87666b474b9d31835b515630a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &2124607837
 GameObject:
   m_ObjectHideFlags: 0
@@ -103097,7 +105649,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
