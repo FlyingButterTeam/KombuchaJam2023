@@ -975,7 +975,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_Sprite
@@ -1566,7 +1566,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_Sprite
@@ -1990,7 +1990,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_Sprite
@@ -2916,7 +2916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1974767295}
+  selectedFlowchart: {fileID: 731840036}
 --- !u!4 &226327169
 Transform:
   m_ObjectHideFlags: 1
@@ -2948,7 +2948,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &229116771
 Transform:
   m_ObjectHideFlags: 0
@@ -3777,7 +3777,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -4131,7 +4131,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_Sprite
@@ -4337,7 +4337,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_Sprite
@@ -6028,7 +6028,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -8393,7 +8393,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_Sprite
@@ -8511,7 +8511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_Sprite
@@ -9185,7 +9185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -9519,7 +9519,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5528309329778368329, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_SortingOrder
@@ -9684,7 +9684,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_Sprite
@@ -10539,7 +10539,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -20882,6 +20882,7 @@ MonoBehaviour:
   - {fileID: 731839989}
   - {fileID: 731839961}
   - {fileID: 731839993}
+  - {fileID: 731840038}
   - {fileID: 731839984}
   - {fileID: 731839958}
   - {fileID: 731839954}
@@ -23834,6 +23835,169 @@ MonoBehaviour:
       vector4Data:
         vector4Ref: {fileID: 0}
         vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &731840036 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+  m_PrefabInstance: {fileID: 731839689}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731839693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &731840038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731839693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 607
+  indentLevel: 1
+  anyVar:
+    variable: {fileID: 731839699}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 1
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  setOperator: 0
   variable: {fileID: 0}
   booleanData:
     booleanRef: {fileID: 0}
@@ -29434,7 +29598,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -32808,7 +32972,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &945056690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35460,7 +35624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_Sprite
@@ -35582,7 +35746,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_Sprite
@@ -35712,7 +35876,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -35946,7 +36110,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_Sprite
@@ -37516,7 +37680,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_Sprite
@@ -41130,7 +41294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -43078,7 +43242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -45809,7 +45973,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -61320,7 +61484,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: blockViewHeight
-      value: 747
+      value: 564
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: variables.Array.size
@@ -61384,7 +61548,7 @@ PrefabInstance:
       objectReference: {fileID: 1524201151}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: selectedBlocks.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: selectedCommands.Array.size
@@ -61408,7 +61572,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -61420,7 +61584,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8175554987879768266, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_Sprite
@@ -61428,7 +61592,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: c86397fc1a7b2c54297206375d461dde, type: 3}
     - target: {fileID: 8587497116126841504, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -61901,7 +62065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 1
-  storyText: Ah, looks like I can use this for a base for a fishing rod.
+  storyText: Ah, looks like I can use this as a base for something..
   description: 
   character: {fileID: 1395565989}
   portrait: {fileID: 0}
@@ -70315,11 +70479,189 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  anyOrAllConditions: 0
+  anyOrAllConditions: 1
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 1524201153}
+      variable: {fileID: 1524201156}
+      data:
+        animatorData:
+          animatorRef: {fileID: 0}
+          animatorVal: {fileID: 0}
+        audioSourceData:
+          audioSourceRef: {fileID: 0}
+          audioSourceVal: {fileID: 0}
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 1
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        collider2DData:
+          collider2DRef: {fileID: 0}
+          collider2DVal: {fileID: 0}
+        colliderData:
+          colliderRef: {fileID: 0}
+          colliderVal: {fileID: 0}
+        colorData:
+          colorRef: {fileID: 0}
+          colorVal: {r: 0, g: 0, b: 0, a: 0}
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        gameObjectData:
+          gameObjectRef: {fileID: 0}
+          gameObjectVal: {fileID: 0}
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        materialData:
+          materialRef: {fileID: 0}
+          materialVal: {fileID: 0}
+        matrix4x4Data:
+          matrix4x4Ref: {fileID: 0}
+          matrix4x4Val:
+            e00: 0
+            e01: 0
+            e02: 0
+            e03: 0
+            e10: 0
+            e11: 0
+            e12: 0
+            e13: 0
+            e20: 0
+            e21: 0
+            e22: 0
+            e23: 0
+            e30: 0
+            e31: 0
+            e32: 0
+            e33: 0
+        objectData:
+          objectRef: {fileID: 0}
+          objectVal: {fileID: 0}
+        quaternionData:
+          quaternionRef: {fileID: 0}
+          quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+        rigidbody2DData:
+          rigidbody2DRef: {fileID: 0}
+          rigidbody2DVal: {fileID: 0}
+        rigidbodyData:
+          rigidbodyRef: {fileID: 0}
+          rigidbodyVal: {fileID: 0}
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        textureData:
+          textureRef: {fileID: 0}
+          textureVal: {fileID: 0}
+        transformData:
+          transformRef: {fileID: 0}
+          transformVal: {fileID: 0}
+        vector2Data:
+          vector2Ref: {fileID: 0}
+          vector2Val: {x: 0, y: 0}
+        vector3Data:
+          vector3Ref: {fileID: 0}
+          vector3Val: {x: 0, y: 0, z: 0}
+        vector4Data:
+          vector4Ref: {fileID: 0}
+          vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  - compareOperator: 0
+    anyVar:
+      variable: {fileID: 1524201155}
+      data:
+        animatorData:
+          animatorRef: {fileID: 0}
+          animatorVal: {fileID: 0}
+        audioSourceData:
+          audioSourceRef: {fileID: 0}
+          audioSourceVal: {fileID: 0}
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 1
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        collider2DData:
+          collider2DRef: {fileID: 0}
+          collider2DVal: {fileID: 0}
+        colliderData:
+          colliderRef: {fileID: 0}
+          colliderVal: {fileID: 0}
+        colorData:
+          colorRef: {fileID: 0}
+          colorVal: {r: 0, g: 0, b: 0, a: 0}
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        gameObjectData:
+          gameObjectRef: {fileID: 0}
+          gameObjectVal: {fileID: 0}
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        materialData:
+          materialRef: {fileID: 0}
+          materialVal: {fileID: 0}
+        matrix4x4Data:
+          matrix4x4Ref: {fileID: 0}
+          matrix4x4Val:
+            e00: 0
+            e01: 0
+            e02: 0
+            e03: 0
+            e10: 0
+            e11: 0
+            e12: 0
+            e13: 0
+            e20: 0
+            e21: 0
+            e22: 0
+            e23: 0
+            e30: 0
+            e31: 0
+            e32: 0
+            e33: 0
+        objectData:
+          objectRef: {fileID: 0}
+          objectVal: {fileID: 0}
+        quaternionData:
+          quaternionRef: {fileID: 0}
+          quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+        rigidbody2DData:
+          rigidbody2DRef: {fileID: 0}
+          rigidbody2DVal: {fileID: 0}
+        rigidbodyData:
+          rigidbodyRef: {fileID: 0}
+          rigidbodyVal: {fileID: 0}
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        textureData:
+          textureRef: {fileID: 0}
+          textureVal: {fileID: 0}
+        transformData:
+          transformRef: {fileID: 0}
+          transformVal: {fileID: 0}
+        vector2Data:
+          vector2Ref: {fileID: 0}
+          vector2Val: {x: 0, y: 0}
+        vector3Data:
+          vector3Ref: {fileID: 0}
+          vector3Val: {x: 0, y: 0, z: 0}
+        vector4Data:
+          vector4Ref: {fileID: 0}
+          vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  - compareOperator: 0
+    anyVar:
+      variable: {fileID: 1524201154}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -73211,7 +73553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_Sprite
@@ -73783,7 +74125,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -75974,7 +76316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_Sprite
@@ -77247,7 +77589,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_Sprite
@@ -78447,7 +78789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -91171,11 +91513,189 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 486
   indentLevel: 0
-  anyOrAllConditions: 0
+  anyOrAllConditions: 1
   conditions:
   - compareOperator: 0
     anyVar:
-      variable: {fileID: 1814224481}
+      variable: {fileID: 1814224482}
+      data:
+        animatorData:
+          animatorRef: {fileID: 0}
+          animatorVal: {fileID: 0}
+        audioSourceData:
+          audioSourceRef: {fileID: 0}
+          audioSourceVal: {fileID: 0}
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 1
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        collider2DData:
+          collider2DRef: {fileID: 0}
+          collider2DVal: {fileID: 0}
+        colliderData:
+          colliderRef: {fileID: 0}
+          colliderVal: {fileID: 0}
+        colorData:
+          colorRef: {fileID: 0}
+          colorVal: {r: 0, g: 0, b: 0, a: 0}
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        gameObjectData:
+          gameObjectRef: {fileID: 0}
+          gameObjectVal: {fileID: 0}
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        materialData:
+          materialRef: {fileID: 0}
+          materialVal: {fileID: 0}
+        matrix4x4Data:
+          matrix4x4Ref: {fileID: 0}
+          matrix4x4Val:
+            e00: 0
+            e01: 0
+            e02: 0
+            e03: 0
+            e10: 0
+            e11: 0
+            e12: 0
+            e13: 0
+            e20: 0
+            e21: 0
+            e22: 0
+            e23: 0
+            e30: 0
+            e31: 0
+            e32: 0
+            e33: 0
+        objectData:
+          objectRef: {fileID: 0}
+          objectVal: {fileID: 0}
+        quaternionData:
+          quaternionRef: {fileID: 0}
+          quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+        rigidbody2DData:
+          rigidbody2DRef: {fileID: 0}
+          rigidbody2DVal: {fileID: 0}
+        rigidbodyData:
+          rigidbodyRef: {fileID: 0}
+          rigidbodyVal: {fileID: 0}
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        textureData:
+          textureRef: {fileID: 0}
+          textureVal: {fileID: 0}
+        transformData:
+          transformRef: {fileID: 0}
+          transformVal: {fileID: 0}
+        vector2Data:
+          vector2Ref: {fileID: 0}
+          vector2Val: {x: 0, y: 0}
+        vector3Data:
+          vector3Ref: {fileID: 0}
+          vector3Val: {x: 0, y: 0, z: 0}
+        vector4Data:
+          vector4Ref: {fileID: 0}
+          vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  - compareOperator: 0
+    anyVar:
+      variable: {fileID: 1814224480}
+      data:
+        animatorData:
+          animatorRef: {fileID: 0}
+          animatorVal: {fileID: 0}
+        audioSourceData:
+          audioSourceRef: {fileID: 0}
+          audioSourceVal: {fileID: 0}
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 1
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        collider2DData:
+          collider2DRef: {fileID: 0}
+          collider2DVal: {fileID: 0}
+        colliderData:
+          colliderRef: {fileID: 0}
+          colliderVal: {fileID: 0}
+        colorData:
+          colorRef: {fileID: 0}
+          colorVal: {r: 0, g: 0, b: 0, a: 0}
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        gameObjectData:
+          gameObjectRef: {fileID: 0}
+          gameObjectVal: {fileID: 0}
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        materialData:
+          materialRef: {fileID: 0}
+          materialVal: {fileID: 0}
+        matrix4x4Data:
+          matrix4x4Ref: {fileID: 0}
+          matrix4x4Val:
+            e00: 0
+            e01: 0
+            e02: 0
+            e03: 0
+            e10: 0
+            e11: 0
+            e12: 0
+            e13: 0
+            e20: 0
+            e21: 0
+            e22: 0
+            e23: 0
+            e30: 0
+            e31: 0
+            e32: 0
+            e33: 0
+        objectData:
+          objectRef: {fileID: 0}
+          objectVal: {fileID: 0}
+        quaternionData:
+          quaternionRef: {fileID: 0}
+          quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+        rigidbody2DData:
+          rigidbody2DRef: {fileID: 0}
+          rigidbody2DVal: {fileID: 0}
+        rigidbodyData:
+          rigidbodyRef: {fileID: 0}
+          rigidbodyVal: {fileID: 0}
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        textureData:
+          textureRef: {fileID: 0}
+          textureVal: {fileID: 0}
+        transformData:
+          transformRef: {fileID: 0}
+          transformVal: {fileID: 0}
+        vector2Data:
+          vector2Ref: {fileID: 0}
+          vector2Val: {x: 0, y: 0}
+        vector3Data:
+          vector3Ref: {fileID: 0}
+          vector3Val: {x: 0, y: 0, z: 0}
+        vector4Data:
+          vector4Ref: {fileID: 0}
+          vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  - compareOperator: 0
+    anyVar:
+      variable: {fileID: 1814224477}
       data:
         animatorData:
           animatorRef: {fileID: 0}
@@ -91955,7 +92475,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_Sprite
@@ -94720,17 +95240,6 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: ee5f91b16bbb005418de3dbcf2fe8e59, type: 3}
   volume: 1
   waitUntilFinished: 0
---- !u!114 &1974767295 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
-  m_PrefabInstance: {fileID: 1524201146}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1524201150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1976641800
 GameObject:
   m_ObjectHideFlags: 0
@@ -98002,7 +98511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_Sprite
@@ -98114,7 +98623,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2037412834
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -98238,7 +98747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_Sprite
@@ -100401,7 +100910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8546350161230103497, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_Sprite
