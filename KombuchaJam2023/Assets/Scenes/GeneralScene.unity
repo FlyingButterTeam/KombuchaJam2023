@@ -980,7 +980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -1579,7 +1579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -2007,7 +2007,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -3105,7 +3105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1409964927}
+  selectedFlowchart: {fileID: 1449869801}
 --- !u!4 &226327169
 Transform:
   m_ObjectHideFlags: 1
@@ -4134,7 +4134,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -4580,7 +4580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -4790,7 +4790,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -5272,7 +5272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b85556abd314f3f870c18c013fdcef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickMode: 3
+  clickMode: 2
   nextClickDelay: 0
   cancelEnabled: 1
   ignoreMenuClicks: 1
@@ -6329,7 +6329,7 @@ RectTransform:
   m_GameObject: {fileID: 507532151}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3447, y: 1.3447, z: 1.3447}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2013292791}
@@ -6337,7 +6337,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -178.5, y: 263.13}
+  m_AnchoredPosition: {x: -178.5, y: 243}
   m_SizeDelta: {x: 357, y: 435}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &507532153
@@ -7132,7 +7132,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -9497,7 +9497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -9619,7 +9619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -10263,7 +10263,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: blockViewHeight
-      value: 321
+      value: 351
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: variables.Array.size
@@ -10295,7 +10295,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -10641,7 +10641,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -10810,7 +10810,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -11753,7 +11753,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -25922,7 +25922,7 @@ MonoBehaviour:
   storyText: '{b}{i}{color=yellow}Goes to sleep on the floor {/color} {/i}  {/b}'
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 96cbc6e543d3da4428c40d5f0578a580, type: 3}
+  portrait: {fileID: 21300000, guid: 7470b61ceddd2f74091c984f866ed9c8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -25949,7 +25949,7 @@ MonoBehaviour:
   storyText: Now if you will excuse me I am trying to rest!
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 96cbc6e543d3da4428c40d5f0578a580, type: 3}
+  portrait: {fileID: 21300000, guid: 7470b61ceddd2f74091c984f866ed9c8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -25976,7 +25976,7 @@ MonoBehaviour:
   storyText: "You\u2019ll get no hints from me!\r"
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 96cbc6e543d3da4428c40d5f0578a580, type: 3}
+  portrait: {fileID: 21300000, guid: 7470b61ceddd2f74091c984f866ed9c8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -26004,7 +26004,7 @@ MonoBehaviour:
     Sam!\r\n\n"
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 96cbc6e543d3da4428c40d5f0578a580, type: 3}
+  portrait: {fileID: 21300000, guid: 7470b61ceddd2f74091c984f866ed9c8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -26346,7 +26346,7 @@ MonoBehaviour:
     fashion {/color} {/i}  {/b}'
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 96cbc6e543d3da4428c40d5f0578a580, type: 3}
+  portrait: {fileID: 21300000, guid: 7470b61ceddd2f74091c984f866ed9c8, type: 3}
   voiceOverClip: {fileID: 8300000, guid: 0a09c7c218a830a42b10513c06dd2bc0, type: 3}
   showAlways: 1
   showCount: 1
@@ -26375,7 +26375,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 96cbc6e543d3da4428c40d5f0578a580, type: 3}
+  portrait: {fileID: 21300000, guid: 7470b61ceddd2f74091c984f866ed9c8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -26402,7 +26402,7 @@ MonoBehaviour:
   storyText: "Trying to beat me to the booty eh!? \r\n"
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 96cbc6e543d3da4428c40d5f0578a580, type: 3}
+  portrait: {fileID: 21300000, guid: 7470b61ceddd2f74091c984f866ed9c8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -26431,7 +26431,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 96cbc6e543d3da4428c40d5f0578a580, type: 3}
+  portrait: {fileID: 21300000, guid: 7470b61ceddd2f74091c984f866ed9c8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -26458,7 +26458,7 @@ MonoBehaviour:
   storyText: "Wait a minute!\r"
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 96cbc6e543d3da4428c40d5f0578a580, type: 3}
+  portrait: {fileID: 21300000, guid: 7470b61ceddd2f74091c984f866ed9c8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -30418,7 +30418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b85556abd314f3f870c18c013fdcef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickMode: 3
+  clickMode: 2
   nextClickDelay: 0
   cancelEnabled: 1
   ignoreMenuClicks: 1
@@ -30882,7 +30882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b85556abd314f3f870c18c013fdcef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickMode: 3
+  clickMode: 2
   nextClickDelay: 0
   cancelEnabled: 1
   ignoreMenuClicks: 1
@@ -31611,7 +31611,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -34496,7 +34496,7 @@ RectTransform:
   m_GameObject: {fileID: 872580925}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.221, y: 1.221, z: 1.221}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1819378843}
@@ -34504,7 +34504,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -178.5, y: 263.13}
+  m_AnchoredPosition: {x: -178.5, y: 237}
   m_SizeDelta: {x: 357, y: 435}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &872580927
@@ -35458,7 +35458,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &945056690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36102,7 +36102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b85556abd314f3f870c18c013fdcef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickMode: 3
+  clickMode: 2
   nextClickDelay: 0
   cancelEnabled: 1
   ignoreMenuClicks: 1
@@ -36980,7 +36980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b85556abd314f3f870c18c013fdcef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickMode: 3
+  clickMode: 2
   nextClickDelay: 0
   cancelEnabled: 1
   ignoreMenuClicks: 1
@@ -37276,7 +37276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b85556abd314f3f870c18c013fdcef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickMode: 3
+  clickMode: 2
   nextClickDelay: 0
   cancelEnabled: 1
   ignoreMenuClicks: 1
@@ -38614,7 +38614,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -38744,7 +38744,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -38850,7 +38850,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: blockViewHeight
-      value: 337
+      value: 271
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: variables.Array.size
@@ -38878,7 +38878,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -39200,7 +39200,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -40854,7 +40854,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -42813,7 +42813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b85556abd314f3f870c18c013fdcef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickMode: 3
+  clickMode: 2
   nextClickDelay: 0
   cancelEnabled: 1
   ignoreMenuClicks: 1
@@ -43094,17 +43094,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1409964927 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
-  m_PrefabInstance: {fileID: 1164677363}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1409964916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1417959636
 GameObject:
   m_ObjectHideFlags: 0
@@ -44790,7 +44779,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: blockViewHeight
-      value: 319
+      value: 264
       objectReference: {fileID: 0}
     - target: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: variables.Array.size
@@ -44822,7 +44811,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -45614,7 +45603,7 @@ MonoBehaviour:
   storyText: "{b}{i}{color=yellow}Looks scary\r{/color} {/i}  {/b}"
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 96cbc6e543d3da4428c40d5f0578a580, type: 3}
+  portrait: {fileID: 21300000, guid: 7470b61ceddd2f74091c984f866ed9c8, type: 3}
   voiceOverClip: {fileID: 8300000, guid: d1bbebfb29b322e4b900a4dce8635c12, type: 3}
   showAlways: 1
   showCount: 1
@@ -45641,7 +45630,7 @@ MonoBehaviour:
   storyText: "Do you think im fearsome?\r"
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 37d63792b970a374b94555f2c15c51e2, type: 3}
+  portrait: {fileID: 21300000, guid: e1f9ebe1948d1954a9b342fefd1d43d8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -45695,7 +45684,7 @@ MonoBehaviour:
   storyText: "They all fear me!\r"
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 96cbc6e543d3da4428c40d5f0578a580, type: 3}
+  portrait: {fileID: 21300000, guid: 7470b61ceddd2f74091c984f866ed9c8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -46184,7 +46173,7 @@ MonoBehaviour:
   storyText: What made you want to try out for the Raven crew?
   description: 
   character: {fileID: 1395565989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4d4943c5ac4343541a774d7256753a0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -46601,6 +46590,17 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1449869801 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+  m_PrefabInstance: {fileID: 1449869740}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449869744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1460789069
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46770,7 +46770,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -49681,7 +49681,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -65280,7 +65280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -65547,7 +65547,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 186.52457
     y: 335.84735
-    width: 87.499985
+    width: 90
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -66297,7 +66297,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -129.39977
     y: 363.8553
-    width: 120.31247
+    width: 126
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -66368,7 +66368,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -122.62636
     y: 298.98474
-    width: 114.06247
+    width: 117
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -66439,7 +66439,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -134.02295
     y: 243.7215
-    width: 132.81247
+    width: 139
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -68176,7 +68176,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -123.849525
     y: 690.0674
-    width: 115.62497
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -69930,7 +69930,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -116.596
     y: 751.7516
-    width: 110.93747
+    width: 115
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -70019,7 +70019,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -130.07338
     y: 626.2471
-    width: 129.68747
+    width: 134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -70090,7 +70090,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -122.08977
     y: 488.11383
-    width: 107.81247
+    width: 112
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -70632,7 +70632,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 176.1607
     y: 615.17285
-    width: 92.187485
+    width: 94
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -71035,7 +71035,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -133.48656
     y: 555.5304
-    width: 131.24997
+    width: 134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -71698,7 +71698,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 176.39749
     y: 552.9621
-    width: 93.749985
+    width: 94
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -73448,7 +73448,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -123.96862
     y: 423.12024
-    width: 112.49997
+    width: 116
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -76510,7 +76510,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -101.10296
     y: 156.79504
-    width: 78.124985
+    width: 77
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -77346,7 +77346,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -78006,7 +78006,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -80339,7 +80339,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -81802,7 +81802,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -82531,7 +82531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b85556abd314f3f870c18c013fdcef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickMode: 3
+  clickMode: 2
   nextClickDelay: 0
   cancelEnabled: 1
   ignoreMenuClicks: 1
@@ -83006,7 +83006,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -89987,7 +89987,7 @@ MonoBehaviour:
   storyText: "What are you sayin\u2019 boy?"
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: e1f9ebe1948d1954a9b342fefd1d43d8, type: 3}
+  portrait: {fileID: 21300000, guid: 7470b61ceddd2f74091c984f866ed9c8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -90183,7 +90183,7 @@ MonoBehaviour:
   storyText: I am not moving from this spot! This is my spot!
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: e1f9ebe1948d1954a9b342fefd1d43d8, type: 3}
+  portrait: {fileID: 21300000, guid: 7470b61ceddd2f74091c984f866ed9c8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -96848,7 +96848,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -97932,9 +97932,9 @@ MonoBehaviour:
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 96cbc6e543d3da4428c40d5f0578a580, type: 3}
+  - {fileID: 21300000, guid: 7470b61ceddd2f74091c984f866ed9c8, type: 3}
   - {fileID: 21300000, guid: e1f9ebe1948d1954a9b342fefd1d43d8, type: 3}
-  - {fileID: 21300000, guid: 3a87b052d9b7c544b9e6b4a81e45b663, type: 3}
+  - {fileID: 21300000, guid: 88d763de76a2fd845a770389b488f83f, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 2130288256}
   description: 
@@ -100260,9 +100260,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1988792304}
-  - {fileID: 1988792303}
   - {fileID: 1988792345}
   - {fileID: 1988792302}
+  - {fileID: 1988792303}
   - {fileID: 1988792301}
   - {fileID: 1988792300}
   - {fileID: 1988792299}
@@ -100616,7 +100616,7 @@ MonoBehaviour:
   storyText: '{b}{i}{color=yellow}Runs at me {/color} {/i}  {/b}'
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 96cbc6e543d3da4428c40d5f0578a580, type: 3}
+  portrait: {fileID: 21300000, guid: 7470b61ceddd2f74091c984f866ed9c8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -100643,7 +100643,7 @@ MonoBehaviour:
   storyText: "I\u2019ll teach you to mess with me!"
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 96cbc6e543d3da4428c40d5f0578a580, type: 3}
+  portrait: {fileID: 21300000, guid: 7470b61ceddd2f74091c984f866ed9c8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -100697,7 +100697,7 @@ MonoBehaviour:
   storyText: Hey! That noise is coming from you!
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: e1f9ebe1948d1954a9b342fefd1d43d8, type: 3}
+  portrait: {fileID: 21300000, guid: 7470b61ceddd2f74091c984f866ed9c8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -101058,7 +101058,7 @@ MonoBehaviour:
   storyText: "{b}{i}{color=yellow}Runs off in to the jungle\r {/color} {/i}  {/b}\n"
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 3a87b052d9b7c544b9e6b4a81e45b663, type: 3}
+  portrait: {fileID: 21300000, guid: 88d763de76a2fd845a770389b488f83f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -101088,7 +101088,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 3a87b052d9b7c544b9e6b4a81e45b663, type: 3}
+  portrait: {fileID: 21300000, guid: 88d763de76a2fd845a770389b488f83f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -101142,7 +101142,7 @@ MonoBehaviour:
   storyText: SNNAAAKEEE!!!
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 3a87b052d9b7c544b9e6b4a81e45b663, type: 3}
+  portrait: {fileID: 21300000, guid: 88d763de76a2fd845a770389b488f83f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -101196,7 +101196,7 @@ MonoBehaviour:
   storyText: "{b}{i}{color=yellow}Listens\r \r {/color} {/i}  {/b}\n"
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 37d63792b970a374b94555f2c15c51e2, type: 3}
+  portrait: {fileID: 21300000, guid: e1f9ebe1948d1954a9b342fefd1d43d8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -101250,7 +101250,7 @@ MonoBehaviour:
   storyText: Snnn nnn akes?!
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 37d63792b970a374b94555f2c15c51e2, type: 3}
+  portrait: {fileID: 21300000, guid: 88d763de76a2fd845a770389b488f83f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -101305,7 +101305,7 @@ MonoBehaviour:
   storyText: "{b}{i}{color=yellow}Looks scared\r \r {/color} {/i}  {/b}\n"
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 37d63792b970a374b94555f2c15c51e2, type: 3}
+  portrait: {fileID: 21300000, guid: 88d763de76a2fd845a770389b488f83f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -101668,7 +101668,7 @@ MonoBehaviour:
   storyText: "Good idea! Right! I\u2019m off to find a hiding place!"
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 37d63792b970a374b94555f2c15c51e2, type: 3}
+  portrait: {fileID: 21300000, guid: e1f9ebe1948d1954a9b342fefd1d43d8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -101973,7 +101973,7 @@ MonoBehaviour:
   storyText: "{b}{i}{color=yellow}Slowly jogs away\r {/color} {/i}  {/b}\n"
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 37d63792b970a374b94555f2c15c51e2, type: 3}
+  portrait: {fileID: 21300000, guid: e1f9ebe1948d1954a9b342fefd1d43d8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -102000,7 +102000,7 @@ MonoBehaviour:
   storyText: "Right, I\u2019d best get practicing just in case!"
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 37d63792b970a374b94555f2c15c51e2, type: 3}
+  portrait: {fileID: 21300000, guid: e1f9ebe1948d1954a9b342fefd1d43d8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -102054,7 +102054,7 @@ MonoBehaviour:
   storyText: "Right..but I am not built for running, don\u2019t like it one bit!"
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 37d63792b970a374b94555f2c15c51e2, type: 3}
+  portrait: {fileID: 21300000, guid: e1f9ebe1948d1954a9b342fefd1d43d8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -102108,7 +102108,7 @@ MonoBehaviour:
   storyText: But what if it chases me?
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 37d63792b970a374b94555f2c15c51e2, type: 3}
+  portrait: {fileID: 21300000, guid: 88d763de76a2fd845a770389b488f83f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -102162,7 +102162,7 @@ MonoBehaviour:
   storyText: 'Ok.. '
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 37d63792b970a374b94555f2c15c51e2, type: 3}
+  portrait: {fileID: 21300000, guid: e1f9ebe1948d1954a9b342fefd1d43d8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -102217,7 +102217,7 @@ MonoBehaviour:
   storyText: "Things!!!!! \r\n\n"
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 3a87b052d9b7c544b9e6b4a81e45b663, type: 3}
+  portrait: {fileID: 21300000, guid: 88d763de76a2fd845a770389b488f83f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -102244,7 +102244,7 @@ MonoBehaviour:
   storyText: "{b}{i}{color=yellow}Looks scared\r \r {/color} {/i}  {/b}\n\n\n"
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 3a87b052d9b7c544b9e6b4a81e45b663, type: 3}
+  portrait: {fileID: 21300000, guid: 88d763de76a2fd845a770389b488f83f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -102301,7 +102301,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 37d63792b970a374b94555f2c15c51e2, type: 3}
+  portrait: {fileID: 21300000, guid: 88d763de76a2fd845a770389b488f83f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -102328,7 +102328,7 @@ MonoBehaviour:
   storyText: "I see things moving on the floor..\r"
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 37d63792b970a374b94555f2c15c51e2, type: 3}
+  portrait: {fileID: 21300000, guid: 88d763de76a2fd845a770389b488f83f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -102355,7 +102355,7 @@ MonoBehaviour:
   storyText: "How is the jungle treating you?\r"
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 37d63792b970a374b94555f2c15c51e2, type: 3}
+  portrait: {fileID: 21300000, guid: e1f9ebe1948d1954a9b342fefd1d43d8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -102411,7 +102411,7 @@ MonoBehaviour:
   storyText: "Huh? What? Oh, it\u2019s you."
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 37d63792b970a374b94555f2c15c51e2, type: 3}
+  portrait: {fileID: 21300000, guid: e1f9ebe1948d1954a9b342fefd1d43d8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -102839,7 +102839,7 @@ MonoBehaviour:
   storyText: '{b}{i}{color=yellow}Smacks into a tree {/color} {/i}  {/b}'
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 96cbc6e543d3da4428c40d5f0578a580, type: 3}
+  portrait: {fileID: 21300000, guid: 7470b61ceddd2f74091c984f866ed9c8, type: 3}
   voiceOverClip: {fileID: 8300000, guid: deed5fe60a8ad124298782a898c5851a, type: 3}
   showAlways: 1
   showCount: 1
@@ -102866,7 +102866,7 @@ MonoBehaviour:
   storyText: Like what?
   description: 
   character: {fileID: 1920869795}
-  portrait: {fileID: 21300000, guid: 37d63792b970a374b94555f2c15c51e2, type: 3}
+  portrait: {fileID: 21300000, guid: e1f9ebe1948d1954a9b342fefd1d43d8, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -103424,7 +103424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -103731,7 +103731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
@@ -105316,7 +105316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b85556abd314f3f870c18c013fdcef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickMode: 3
+  clickMode: 2
   nextClickDelay: 0
   cancelEnabled: 1
   ignoreMenuClicks: 1
@@ -105612,7 +105612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b85556abd314f3f870c18c013fdcef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickMode: 3
+  clickMode: 2
   nextClickDelay: 0
   cancelEnabled: 1
   ignoreMenuClicks: 1
@@ -106036,7 +106036,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869355284958171775, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4003127048158816668, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: m_IsActive
