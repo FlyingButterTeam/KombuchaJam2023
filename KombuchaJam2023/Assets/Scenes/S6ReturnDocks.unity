@@ -5261,7 +5261,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: d91e5525c93f54f4ab27329a30f22ad1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6992,7 +6992,6 @@ GameObject:
   - component: {fileID: 2034127663}
   - component: {fileID: 2034127662}
   - component: {fileID: 2034127661}
-  - component: {fileID: 2034127660}
   - component: {fileID: 2034127680}
   - component: {fileID: 2034127681}
   - component: {fileID: 2034127684}
@@ -7021,7 +7020,7 @@ MonoBehaviour:
   scrollPos: {x: 619.2144, y: 7.850133}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 386.8
+  blockViewHeight: 564.8
   zoom: 0.7900002
   scrollViewRect:
     serializedVersion: 2
@@ -7031,8 +7030,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 2034127657}
-  selectedCommands:
-  - {fileID: 2034127661}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -7088,7 +7086,6 @@ MonoBehaviour:
   - {fileID: 2034127683}
   - {fileID: 2034127662}
   - {fileID: 2034127661}
-  - {fileID: 2034127660}
   suppressAllAutoSelections: 0
 --- !u!114 &2034127658
 MonoBehaviour:
@@ -7120,33 +7117,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2034127660
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2034127654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 68
-  indentLevel: 0
-  storyText: LOAD MAIN MENU / CREDITS ETC
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &2034127661
 MonoBehaviour:
   m_ObjectHideFlags: 2
