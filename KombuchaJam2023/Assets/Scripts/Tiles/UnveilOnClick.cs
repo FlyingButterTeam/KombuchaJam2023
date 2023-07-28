@@ -43,6 +43,18 @@ public class UnveilOnClick : MonoBehaviour
         }
     }
 
+    PauseButton _myPauseButton;
+    PauseButton MyPauseButton
+    {
+        get
+        {
+            if (_myPauseButton == null)
+                _myPauseButton = PauseButton.instance;
+
+            return _myPauseButton;
+        }
+    }
+
     #endregion
 
     [SerializeField] GameObject selectedFrame;
@@ -53,7 +65,8 @@ public class UnveilOnClick : MonoBehaviour
               || MyMapTile.Visibility == MapTile.TileVisibility.visible))
             return;
 
-        if (!isMouseOverTile)
+
+        if (!isMouseOverTile || MyPauseButton.isGamePaused)
         {
             selectedFrame.SetActive(false);
             return;

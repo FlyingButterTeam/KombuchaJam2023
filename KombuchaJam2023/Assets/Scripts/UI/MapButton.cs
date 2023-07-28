@@ -46,6 +46,18 @@ public class MapButton : MonoBehaviour
         }
     }
 
+    PauseButton _myPauseButton;
+    PauseButton MyPauseButton
+    {
+        get
+        {
+            if (_myPauseButton == null)
+                _myPauseButton = PauseButton.instance;
+
+            return _myPauseButton;
+        }
+    }
+
     #endregion
 
     [Header("References")]
@@ -74,6 +86,9 @@ public class MapButton : MonoBehaviour
         {
             return;
         }
+
+        if (MyPauseButton.isGamePaused)
+            return;
 
         PressButtonAnimation();
         MyDialogueMapTransitionManager.PressMapButton();

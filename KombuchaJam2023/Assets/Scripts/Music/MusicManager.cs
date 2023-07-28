@@ -19,8 +19,6 @@ public class MusicManager : MonoBehaviour
             return;
         }
 
-        Debug.LogError("Duplicated static reference. There are multiple instances of MusicController. " +
-            "Destroying this instance.");
         Destroy(this.gameObject);
     }
 
