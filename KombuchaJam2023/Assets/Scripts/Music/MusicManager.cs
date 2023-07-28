@@ -30,7 +30,7 @@ public class MusicManager : MonoBehaviour
 
     private Dictionary<string, MusicTrack> myTrackDictionary = new();
 
-    private float musicVolumeMultiplier = 0.4f;
+    [HideInInspector] public float musicVolumeMultiplier = 0.4f;
     private MusicTrack activeMusicTrack = null;
 
     private void InitializeTracksAndDictionary()

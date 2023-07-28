@@ -1026,6 +1026,7 @@ MonoBehaviour:
     introClip: {fileID: 0}
     source: {fileID: 0}
     isPlayingIntro: 0
+  musicVolumeMultiplier: 0.4
 --- !u!4 &940690061
 Transform:
   m_ObjectHideFlags: 0
@@ -1612,6 +1613,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1415530913}
   - component: {fileID: 1415530914}
+  - component: {fileID: 1415530915}
   m_Layer: 5
   m_Name: MusicVolume Slider
   m_TagString: Untagged
@@ -1694,6 +1696,19 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1415530915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415530912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d113b952f0ddd14794b9a55eb2f32be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myText: {fileID: 446932652}
 --- !u!1 &1482277778
 GameObject:
   m_ObjectHideFlags: 0
