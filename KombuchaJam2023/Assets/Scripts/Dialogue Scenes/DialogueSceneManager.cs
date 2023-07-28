@@ -32,9 +32,6 @@ public class DialogueSceneManager : MonoBehaviour
         InitializeStaticReference();
         CollectAllDialogueScenes();
         HideAllButActiveScene();
-
-        // DEBUG:
-        gameObject.SetActive(false);
     }
 
 

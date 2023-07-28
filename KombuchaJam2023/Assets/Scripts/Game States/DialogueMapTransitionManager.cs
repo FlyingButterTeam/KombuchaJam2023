@@ -73,7 +73,7 @@ public class DialogueMapTransitionManager : MonoBehaviour
     [SerializeField] GameObject dialogueParentGameobject;
 
 
-    bool _areWeCurrentlyInMapMode = true;
+    bool _areWeCurrentlyInMapMode = false;
     public bool AreWeCurrentlyInMapMode
     {
         get => _areWeCurrentlyInMapMode;

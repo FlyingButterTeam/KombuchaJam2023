@@ -93,7 +93,7 @@ public class GameStateManager : StateMachine
         InitializeStaticReference();
 
         // DEBUG CODE
-        MyStateType = StateMachineMode.exploreMap;
+        MyStateType = StateMachineMode.inDialogue;
     }
 
     public void SetActiveMapButtonAndInventoryInterface(bool isActive)
