@@ -10,7 +10,8 @@ public class MapTile : BaseTile
     [SerializeField] GameObject regularTile;
     [SerializeField] GameObject tileBorder;
     
-    
+
+
     #region Self-Initiated Properties
 
     Grid _myGrid;

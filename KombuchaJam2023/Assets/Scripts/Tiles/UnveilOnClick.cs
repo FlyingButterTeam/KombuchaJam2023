@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.EventSystems;
 
 public class UnveilOnClick : MonoBehaviour
@@ -20,15 +19,27 @@ public class UnveilOnClick : MonoBehaviour
         }
     }
 
-    PlayerActionsAsset _playerActions;
-    PlayerActionsAsset PlayerActions
+    GameStateManager _myStateManager;
+    GameStateManager MyStateManager
     {
         get
         {
-            if (_playerActions == null)
-                _playerActions = GameStateManager.instance.ActionsAsset;
+            if (_myStateManager == null)
+                _myStateManager = GameStateManager.instance;
 
-            return _playerActions;
+            return _myStateManager;
+        }
+    }
+
+    DialogueMapTransitionManager _myDialogueMapTransitionManager;
+    DialogueMapTransitionManager MyDialogueMapTransitionManager
+    {
+        get
+        {
+            if (_myDialogueMapTransitionManager == null)
+                _myDialogueMapTransitionManager = DialogueMapTransitionManager.instance;
+
+            return _myDialogueMapTransitionManager;
         }
     }
 
@@ -51,11 +62,16 @@ public class UnveilOnClick : MonoBehaviour
         // Else
         selectedFrame.SetActive(true);
 
-        if(PlayerActions.MapControls.Click.WasPressedThisFrame())
+        if(Input.GetKeyDown(KeyCode.Mouse0) && 
+            (MyStateManager.MyStateType == GameStateManager.StateMachineMode.exploreMap ||
+             MyStateManager.MyStateType == GameStateManager.StateMachineMode.pointAndClick))
         {
             MyMapTile.Visibility = MapTile.TileVisibility.visible;
 
-            BlackoutController.instance.ActivateBlackoutAnimation(0.5f, 0.2f, 0.3f);
+            isMouseOverTile = false;
+            selectedFrame.SetActive(false);
+
+            MyDialogueMapTransitionManager.CloseMapOpenDialogue(MyMapTile.position);
         }
     }
 
@@ -63,4 +79,10 @@ public class UnveilOnClick : MonoBehaviour
 
     private void OnMouseOver() => isMouseOverTile = true;
     private void OnMouseExit() => isMouseOverTile = false;
+
+    private void OnDisable()
+    {
+        selectedFrame.SetActive(false);
+        isMouseOverTile = false;
+    }
 }

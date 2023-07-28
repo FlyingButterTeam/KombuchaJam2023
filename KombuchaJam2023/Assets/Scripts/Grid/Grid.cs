@@ -10,6 +10,8 @@ public class Grid : MonoBehaviour
     private void Start()
     {
         CollectAllMapTiles();
+
+        gameObject.SetActive(false);
     }
 
     /// <summary>

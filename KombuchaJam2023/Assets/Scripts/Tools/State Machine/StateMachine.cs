@@ -9,7 +9,7 @@ public abstract class StateMachine : MonoBehaviour
     {
         get { return _state; }
 
-        set
+        protected set
         {
             if (_state == value)
                 return;
