@@ -3265,7 +3265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 851236481}
+  selectedFlowchart: {fileID: 771932377}
 --- !u!4 &226327169
 Transform:
   m_ObjectHideFlags: 1
@@ -27958,7 +27958,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 46.488373
     y: 152.1286
-    width: 102.8
+    width: 103.714264
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28001,7 +28001,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 771932322}
   suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 261011360}
+  clickableObject: {fileID: 1794620243}
   waitFrames: 1
 --- !u!114 &771932319
 MonoBehaviour:
@@ -28094,7 +28094,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -82.59184
     y: 254.70099
-    width: 134.8
+    width: 132.28568
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28568,7 +28568,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -47.26538
     y: 329.93292
-    width: 90.8
+    width: 89.999985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29048,7 +29048,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 111.86951
     y: 289.88507
-    width: 122.8
+    width: 120.85712
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29130,7 +29130,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 219.08154
     y: 363.5808
-    width: 76.4
+    width: 76.285706
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -30005,6 +30005,17 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &771932377 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
+  m_PrefabInstance: {fileID: 626305793}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771932302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &772132033
 GameObject:
   m_ObjectHideFlags: 0
@@ -31582,11 +31593,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1166607722, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: nodeRect.x
-      value: -157.36761
+      value: -155.64348
       objectReference: {fileID: 0}
     - target: {fileID: 1166607722, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: nodeRect.y
-      value: 142.45476
+      value: 140.73062
       objectReference: {fileID: 0}
     - target: {fileID: 1166607722, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
       propertyPath: nodeRect.width
@@ -32256,7 +32267,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 55.9887
     y: 143.39038
-    width: 105.78946
+    width: 105.17238
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -32388,9 +32399,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 40.951073
-    y: 252.35303
-    width: 137.3684
+    x: 6.468334
+    y: 248.90475
+    width: 132.75858
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -32864,7 +32875,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 55.96673
     y: 348.82883
-    width: 91.05262
+    width: 89.99998
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -33345,7 +33356,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 206.31525
     y: 350.57263
-    width: 124.73682
+    width: 120.34479
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -33427,7 +33438,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 246.31232
     y: 427.79382
-    width: 85.78946
+    width: 83.103424
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -34164,17 +34175,6 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
---- !u!114 &851236481 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2646347605762473372, guid: ef18fcd8a52c37e4387e661d3e57352f, type: 3}
-  m_PrefabInstance: {fileID: 851236408}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 799227929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &851677941
 GameObject:
   m_ObjectHideFlags: 0
