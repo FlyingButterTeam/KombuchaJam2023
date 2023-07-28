@@ -71,6 +71,8 @@ public class DialogueMapTransitionManager : MonoBehaviour
     [Header("References")]
     [SerializeField] GameObject mapParentGameobject;
     [SerializeField] GameObject dialogueParentGameobject;
+    [SerializeField] AudioSource mapSoundSource;
+    [SerializeField] AudioSource footstepsSoundSource;
 
 
     bool _areWeCurrentlyInMapMode = false;
@@ -92,6 +94,8 @@ public class DialogueMapTransitionManager : MonoBehaviour
             CloseMapOpenDialogue();
         else
             CloseDialogueOpenMap();
+
+        mapSoundSource.Play();
     }
 
     void CloseDialogueOpenMap()
@@ -167,6 +171,7 @@ public class DialogueMapTransitionManager : MonoBehaviour
         if(newTileToExplore == MyDialogueSceneManager.currentlyActiveTileScene)
         {
             CloseMapOpenDialogue();
+            mapSoundSource.Play();
             return;
         }
 
@@ -184,6 +189,8 @@ public class DialogueMapTransitionManager : MonoBehaviour
         // We swap when we are in the middle of our Middle Wait for an excellent transition.
         WaitAndToggleMapDialogue(transitionDuration
             * (fadeInPercentageTransition + middleWaitPercentageTransition * 0.5f));
+
+        footstepsSoundSource.Play();
     }
 
     #region Toggle Map-Dialogue Coroutine
